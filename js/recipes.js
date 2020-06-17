@@ -1,0 +1,42 @@
+let recipes = [
+    {
+        id: 1,
+        name: "Grandma Lenon's Chocolate Chip Cookies",
+        total_time: '40 min',
+        yield: '6 dozen',
+        prep_time: '30 min',
+        cook_time: '10 min',
+        temp: '350',
+        cuisine: 'Mexican',
+        course: 'Dessert',
+        skill_level: 'Beginner',
+        pdf: 'pdf.pdf',
+        ingredients: ['2 cups sugar','2 cups shortening','4 eggs'],
+        steps: [
+            'Cream shortening, add sugar gradually and cream.',
+            'Add eggs and mix.',
+            'Sift flour once, then measure and add salt, soda and sift again.',
+        ],
+        tags: ['cookie','chocolate'],
+    },
+    {
+        id: 2,
+        name: "Grandma Lenon's Chocolate Chip Cookies 2",
+        total_time: '40 min',
+        yield: '6 dozen',
+        prep_time: '30 min',
+        cook_time: '10 min',
+        temp: '350',
+        cuisine: 'Mexican',
+        course: 'Dessert',
+        skill_level: 'Beginner',
+        pdf: 'pdf.pdf',
+        ingredients: ['2 cups sugar','2 cups shortening','4 eggs'],
+        steps: [
+            'Cream shortening, add sugar gradually and cream.',
+            'Add eggs and mix.',
+            'Sift flour once, then measure and add salt, soda and sift again.',
+        ],
+        tags: ['cookie','chocolate'],
+    }
+]
