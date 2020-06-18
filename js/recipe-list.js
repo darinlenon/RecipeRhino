@@ -5,12 +5,12 @@ var recipe_list_html = $("#recipe-list");
 for(var i = 0; i < recipes.length; i++) {
     let rec = recipes[i];
     recipe_list_html.append( 
-        '<a href="recipe.html?id=' + rec.id + '">' +
-            '<div id="recipe-' + rec.id + '" class="recipe-tile">' +
+        '<div id="recipe-' + rec.id + '" class="recipe-tile">' +
+            '<a href="recipe.html?id=' + rec.id + '">' +
                 '<img class="recipe-tile-img" src="images/recipe_images/' + rec.recipe_img + '">' +
-                '<h5>' + rec.name + '</h5>' +
-            '</div>' +
-        '</a>'
+            '</a>' +
+            '<h5>' + rec.name + '</h5>' +
+        '</div>'
     );
 };
 
