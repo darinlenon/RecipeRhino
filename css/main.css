@@ -4601,6 +4601,14 @@ div.widget-measurements .default-btn {
   font-weight: 700;
   font-size: 24px;
 }
+.slider-recipe-detail .recipe-specs li .count2 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 21px;
+}
+.bold {
+  font-weight: bold;
+}
 .slider-recipe-detail .recipe-specs li .count span {
   font-weight: 400;
   font-size: 21px;
@@ -4662,7 +4670,10 @@ div.widget-measurements .default-btn {
   font-size: 16px;
   margin-right: 30px;
 }
-.pre-tags span {
+.pre-tags-bold {
+  font-weight: bold;
+}
+.pre-tags-400 {
   font-weight: 400;
 }
 .print-button {
@@ -4818,6 +4829,12 @@ div.widget-measurements .default-btn {
   margin-right: 5px;
 }
 .tags-icons .details-tags a {
+  padding: 7px 9px;
+  border: 1px solid #e4d9d1;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.tag-boxes {
   padding: 7px 9px;
   border: 1px solid #e4d9d1;
   font-family: 'Lato', sans-serif;
@@ -5563,7 +5580,7 @@ div.widget-measurements .default-btn {
   text-transform: capitalize;
   padding-top: 4px;
   padding-bottom: 4px;
-  margin-left: 134px;
+  margin-left: 228px;
   margin-bottom: 4px;
   border: 1px solid transparent;
   box-shadow: 0 8px rgb(207, 207, 207);

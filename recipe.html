@@ -338,28 +338,24 @@
                                     </div>
                                 -->
                                 <ul class="recipe-specs">
-                                    <li><span id='total_time'></span><span class="text">Total Time</span></li>
-                                    <li><span id='yield'></span><span class="text">Yield</span></li>
-                                    <li><span id='prep_time'></span><span class="text">Prep Time</span></li>
-                                    <li><span id='cook_time'></span><span class="text">Cook Time</span></li>
-                                    <li><span id='temp'></span><span class="text">Temperature</span></li>
+                                    <li><span><span class="count" id='time_total'></span><span class="count2" id='time_type'></span></span><span class="text" id='time_label'></span></li>
+                                    <li><span><span class="count" id='yield'></span><span class="count2" id='yield_type'></span></span><span class="text" id='yield_label'></span></li>
+                                    <li><span><span class="count" id='prep_time'></span><span class="count2" id='prep_type'></span></span><span class="text" id='prep_label'></span></li>
+                                    <li><span><span class="count" id='cook_time'></span><span class="count2" id='cook_type'></span></span><span class="text" id='cook_label'></span></li>
+                                    <li><span><span class="count" id='temp'></span><span class="count2" id='temp_alt'></span></span><span class="text" id='temp_label'></span></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="recipe-detail-body">
                             <ul class="pre-tags">
-                                <li><span>Cuisine : </span><span id="cuisine_text"></span></li>
-                                <li><span>Course : </span><span id="course_text"></span></li>
-                                <li><span>Skill Level : </span><span id="skill_level"></span></li>
+                                <li><span class="pre-tags-400">Cuisine : </span><span class="pre-tags-bold" id="cuisine_text"></span></li>
+                                <li><span class="pre-tags-400">Course : </span><span class="pre-tags-bold" id="course_text"></span></li>
+                                <li><span class="pre-tags-400">Skill Level : </span><span class="pre-tags-bold" id="skill_level"></span></li>
                                 <a href="images\recipe_pdfs\Grandma Lenons Chocolate Chip Cookies.pdf" class="print-btn small-button theme-border">Print Recipe<br> Card</a>
                             </ul>
                             <div class="separator-post"></div>
-                            <p>
-                                My Mom has been making these since I was a child. 
-                            They are still my very favorite over 50 year later. 
-                            I hope you love them as much as I do!
-                            </p>
+                            <p id="recipe_blurb"></p>
                             <br/>
                             <div class="ingredients-checkbox">
                                 <div class="ingredients">
@@ -380,12 +376,12 @@
                                         <div class="left-box">
                                             Serving Size
                                             <br/>
-                                            <span>1 Cookie</span>
+                                            <span id="serving_size"></span>
                                         </div>
                                         <div class="right-box">
                                             Total Servings
                                             <br/>
-                                            <span>72</span>
+                                            <span id="total_servings"></span>
                                         </div>
                                     </div>
                                     <div class="separator-post"></div>
@@ -393,12 +389,12 @@
                                         <div class="left-box">
                                             Calories
                                             <br/>
-                                            <span>114</span>
+                                            <span id="calories"></span>
                                         </div>
                                         <div class="right-box">
                                             Carbohydrates
                                             <br/>
-                                            <span>12</span>
+                                            <span id="carbohydrates"></span>
                                         </div>
                                     </div>
                                     <div class="separator-post"></div>
@@ -406,12 +402,12 @@
                                         <div class="left-box">
                                             Total Fat 
                                             <br/>
-                                            <span>7g</span>
+                                            <span id="total_fat"></span>
                                         </div>
                                         <div class="right-box">
                                             Sodium
                                             <br/>
-                                            <span>85mg</span>
+                                            <span id="sodium"></span>
                                         </div>
                                     </div>
                                     <div class="separator-post"></div>
@@ -419,12 +415,12 @@
                                         <div class="left-box">
                                             Protein
                                             <br/>
-                                            <span>1g</span>
+                                            <span id="protein"></span>
                                         </div>
                                         <div class="right-box">
                                             Sugar
                                             <br/>
-                                            <span>7g</span>
+                                            <span id="sugar"></span>
                                         </div>
                                     </div>
         
@@ -433,7 +429,7 @@
 
                     <div class="recipe-steps">
                         <h3 class="lined">Instructions</h3>
-                        <ul class="steps-list" id="steps_list">
+                        <ul class="steps-list" id="instructions_list">
                             <!-- <li>   ----  example
                                 <div class="step-single">
                                     <div class="step-detail">
@@ -448,15 +444,15 @@
                     </div>
 
                     <div class="tips-variations">
-                        <h3>Tips & variations</h3>
-                        <ul>
-                            <li>
+                        <h3>Tips & Variations</h3>
+                        <ul id="tips_var_list">
+                            <!--<li>
                                 <p>
                                     You can substitute any flavor of chips with this recipe 
                                     for a nice change. I love peanut butter and choclate 
                                     mixed. Enjoy!
                                 </p>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
 
@@ -470,9 +466,7 @@
                         <div class="row">
                             <div class="col-sm-7">
                                 <div class="details-tags">
-                                    <ul>
-                                        <li><a href="#">cookie</a></li>
-                                        <li><a href="#">chocolate</a></li>
+                                    <ul id="tags_list">
                                     </ul>
                                 </div>
                             </div>
