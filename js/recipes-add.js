@@ -75,6 +75,7 @@ if (recipe_arr.length) {
     $("#protein").html(rec.protein + 'g');
     $("#sugar").html(rec.sugar + 'g');
 
+    
     // Set up steps
     var tips_var_html_list = $("#tips_var_list");
     let tips_var = rec.tips_var;
@@ -90,7 +91,7 @@ if (recipe_arr.length) {
     };
 
 
-    // Set up steps
+    // Set up tags
     var tags_html_list = $("#tags_list");
     let tags = rec.tags;
 
@@ -104,6 +105,10 @@ if (recipe_arr.length) {
 
 
     // Set image src
-    $("#recipe_img").attr("src","images/recipe_images/chocolate-chip-cookies.png");
+    $("#recipe_img").attr("src", "images/recipe_images/" + rec.recipe_img);
+
+
+    // Set pdf href
+    $("#pdf_link").attr("href", "images/recipe_pdfs/" + rec.pdf);
 
 }

@@ -2,7 +2,7 @@ let recipes = [
     {
         id: 1,
         name: "Grandma Lenon's Chocolate Chip Cookies",
-        recipe_img: "",
+        recipe_img: "chocolate-chip-cookies.png",
         time_total: '40',
         time_type: 'min',
         time_label: 'Total Time',
@@ -21,7 +21,7 @@ let recipes = [
         cuisine: 'Mexican',
         course: 'Dessert',
         skill_level: 'Beginner',
-        pdf: 'pdf.pdf',
+        pdf: 'Grandma Lenons Chocolate Chip Cookies.pdf',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
                     '2 cups shortening',
@@ -64,7 +64,7 @@ let recipes = [
     {
         id: 2,
         name: "Uncle Darin's Pico De Gallo",
-        recipe_img: "",
+        recipe_img: "pico_image.jpg",
         time_total: '15',
         time_type: 'min',
         time_label: 'Total Time',
@@ -83,7 +83,7 @@ let recipes = [
         cuisine: 'Mexican',
         course: 'Side Dish',
         skill_level: 'Beginner',
-        pdf: 'pdf.pdf',
+        pdf: '',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
                     '3-4 medium size ripe tomatoes',
@@ -122,7 +122,7 @@ let recipes = [
     {
         id: 3,
         name: "Grandma Lenon's Chocolate Chip Cookies",
-        recipe_img: "",
+        recipe_img: "chocolate-chip-cookies.png",
         time_total: '40',
         time_type: 'min',
         yield: '6',
@@ -135,7 +135,7 @@ let recipes = [
         cuisine: 'Mexican',
         course: 'Dessert',
         skill_level: 'Beginner',
-        pdf: 'pdf.pdf',
+        pdf: '',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
                     '2 cups shortening',
