@@ -21,7 +21,7 @@ let recipes = [
         cuisine: 'Mexican',
         course: 'Dessert',
         skill_level: 'Beginner',
-        pdf: 'Grandma Lenons Chocolate Chip Cookies.pdf',
+        pdf: 'Grandma Lenons Chocolate Chip Cookies',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
                     '2 cups shortening',
@@ -83,7 +83,7 @@ let recipes = [
         cuisine: 'Mexican',
         course: 'Side Dish',
         skill_level: 'Beginner',
-        pdf: '',
+        pdf: 'Uncle Darins Pico De Gallo',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
                     '3-4 medium size ripe tomatoes',

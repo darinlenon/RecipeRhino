@@ -109,6 +109,6 @@ if (recipe_arr.length) {
 
 
     // Set pdf href
-    $("#pdf_link").attr("href", "images/recipe_pdfs/" + rec.pdf);
+    $("#pdf_link").attr("href", "images/recipe_pdfs/" + rec.pdf + ".pdf");
 
 }
