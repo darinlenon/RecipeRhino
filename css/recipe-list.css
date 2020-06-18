@@ -22,6 +22,10 @@
     border-radius: 1em;
 }
 
+.recipe-tile-name {
+    max-width: 16em;
+}
+
 .total-recipes {
     margin: 0 0 0 2em;
 }

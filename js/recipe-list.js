@@ -9,7 +9,7 @@ for(var i = 0; i < recipes.length; i++) {
             '<a href="recipe.html?id=' + rec.id + '">' +
                 '<img class="recipe-tile-img" src="images/recipe_images/' + rec.recipe_img + '">' +
             '</a>' +
-            '<h5>' + rec.name + '</h5>' +
+            '<h5 class="recipe-tile-name">' + rec.name + '</h5>' +
         '</div>'
     );
 };
