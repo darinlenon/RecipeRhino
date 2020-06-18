@@ -17,7 +17,7 @@ let recipes = [
             'Add eggs and mix.',
             'Sift flour once, then measure and add salt, soda and sift again.',
         ],
-        tags: ['cookie','chocolate'],
+        tags: ['cookie','chocolate','treat'],
     },
     {
         id: 2,
