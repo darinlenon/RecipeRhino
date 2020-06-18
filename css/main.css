@@ -6715,3 +6715,35 @@ div.widget-measurements .default-btn {
     border-bottom: 1px solid #c9d6bf;
   }
 }
+
+.navbar-image-small-screen {
+  display: block;
+}
+.navbar-image-large-screen {
+  display: none;
+}
+
+@media only screen and (min-width: 993px) {
+  .navbar-link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-link {
+    margin: 2em;
+  }
+
+  .navbar-image-small-screen {
+    display: none;
+  }
+  .navbar-image-large-screen {
+    display: block;
+  }
+}
+
+.navbar {
+  background-color: white !important;
+}
