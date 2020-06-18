@@ -16,7 +16,6 @@ let recipes = [
         cook_type: 'min',
         cook_label: 'Cook Time',
         temp: '350',
-        temp_symbol: '°',
         temp_label: 'Temperature',
         cuisine: 'Mexican',
         course: 'Dessert',

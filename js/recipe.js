@@ -14,18 +14,22 @@ if (recipe_arr.length) {
 
     // Add other info
     $("#time_total").html(rec.time_total);
-    $("#time_type").html(rec.time_type);
+    $("#time_type").html(rec.time_type + ' ');
     $("#time_label").html(rec.time_label);
+
     $("#yield").html(rec.yield);
-    $("#yield_type").html(rec.yield_type);
+    $("#yield_type").html(rec.yield_type + ' ');
     $("#yield_label").html(rec.yield_label);
+
     $("#prep_time").html(rec.prep_time);
-    $("#prep_type").html(rec.prep_type);
+    $("#prep_type").html(rec.prep_type + ' ');
     $("#prep_label").html(rec.prep_label);
+
     $("#cook_time").html(rec.cook_time);
-    $("#cook_type").html(rec.cook_type);
+    $("#cook_type").html(rec.cook_type + ' ');
     $("#cook_label").html(rec.cook_label);
-    $("#temp").html(rec.temp);
+
+    $("#temp").html(rec.temp ? (rec.temp + '°') : '');
     $("#temp_alt").html(rec.temp_alt);
     $("#temp_label").html(rec.temp_label);
 

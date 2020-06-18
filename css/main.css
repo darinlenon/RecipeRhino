@@ -6747,3 +6747,7 @@ div.widget-measurements .default-btn {
 .navbar {
   background-color: white !important;
 }
+
+.sameline {
+  display: inline !important;
+}
