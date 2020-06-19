@@ -283,16 +283,16 @@
     /*-----------------------------------------------------------------------------------*/
     /* add ingredients
     /*-----------------------------------------------------------------------------------*/
-    if (jQuery().meanmenu) {
-        var list_sortable = $(".list-sortable");
-        list_sortable.parents("body").addClass("visible-overflow");
-        //  sortable
-        list_sortable.sortable({
-            forcePlaceholderSize: true,
-            placeholder: "detail-placeholder",
-            handle: ".handler-list"
-        });
-    }
+    // if (jQuery().meanmenu) {
+    //     var list_sortable = $(".list-sortable");
+    //     list_sortable.parents("body").addClass("visible-overflow");
+    //     //  sortable
+    //     list_sortable.sortable({
+    //         forcePlaceholderSize: true,
+    //         placeholder: "detail-placeholder",
+    //         handle: ".handler-list"
+    //     });
+    // }
 
 
     $('.add-button.add-ing').on("click",function(event){
