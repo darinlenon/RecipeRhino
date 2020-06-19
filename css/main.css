@@ -6751,3 +6751,10 @@ div.widget-measurements .default-btn {
 .sameline {
   display: inline !important;
 }
+
+.menu_font {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  color: #000000 !important;
+}
