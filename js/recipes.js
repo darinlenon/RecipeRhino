@@ -2,6 +2,7 @@ let recipes = [
     {
         id: 1,
         name: "Grandma Lenon's Chocolate Chip Cookies",
+        rating: "5.1",
         recipe_img: "chocolate-chip-cookies.png",
         time_total: '40',
         time_type: 'min',
@@ -61,6 +62,7 @@ let recipes = [
     {
         id: 2,
         name: "Uncle Darin's Pico De Gallo",
+        rating: "5",
         recipe_img: "pico_image.jpg",
         time_total: '15',
         time_type: 'min',
@@ -119,6 +121,7 @@ let recipes = [
     {
         id: 3,
         name: "Grandpa Lenon's Idaho Trail Chili",
+        rating: "4.7",
         recipe_img: "Grandpa Lenons Idaho Trail Chili.png",
         time_total: '2',
         time_type: 'hours',
@@ -132,9 +135,9 @@ let recipes = [
         cook_time: '90',
         cook_type: 'min',
         cook_label: 'Cook Time',
-        temp: "Simmer",
-        temp_alt: null,
-        temp_label: 'Temperature',
+        temp: null,
+        temp_alt: "Simmer",
+        temp_label: null,
         cuisine: 'American',
         course: 'Main Dish',
         skill_level: 'Intermediate',
@@ -186,6 +189,7 @@ let recipes = [
     {
         id: 4,
         name: "Joy's Banana Bread",
+        rating: "4.9",
         recipe_img: "Joys Banana Bread.png",
         time_total: '30',
         time_type: 'min',
@@ -247,6 +251,7 @@ let recipes = [
      {
          id: 5,
          name: "Texas Sheet Cake",
+         rating: "4.8",
          recipe_img: "Texas Sheet Cake.png",
          time_total: '55',
          time_type: 'min',
@@ -305,7 +310,7 @@ let recipes = [
          tags:       [
                      'cake',
                      'chocolate',
-                     'birthday party'
+                     'birthday'
                      ],
       },
 ]
