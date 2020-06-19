@@ -39,7 +39,7 @@ if (recipe_arr.length) {
 
     $("#recipe_blurb").html(rec.recipe_blurb);
 
-    // Set up steps
+    // Set up ingredients
     var ingredient_html_list = $("#ingredients_list");
     let ingredients = rec.ingredients;
 
@@ -55,7 +55,7 @@ if (recipe_arr.length) {
     };
 
 
-    // Set up steps
+    // Set up instructions
     var instructions_html_list = $("#instructions_list");
     let instructions = rec.instructions;
 
@@ -80,15 +80,24 @@ if (recipe_arr.length) {
     $("#sugar").html(rec.sugar + 'g');
 
     
-    // Set up steps
+    // Set up tips
     var tips_var_html_list = $("#tips_var_list");
     let tips_var = rec.tips_var;
 
     for(var i = 0; i < tips_var.length; i++) {
+
+        var tip = tips_var[i];
+        var add_check = false;
+
+        if (tip[0] == '^') {
+            add_check = true;
+            tip = tip.substring(1);
+        }
+
         tips_var_html_list.append( 
-            '<li>' +
+            '<li class="' + (add_check ? 'check-yes' : '') + '">' +
                 '<p>' +
-                    tips_var[i] +
+                tip +
                 '</p>' +
             '</li>' 
         );
