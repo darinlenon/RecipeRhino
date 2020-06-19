@@ -305,7 +305,7 @@ let recipes = [
          tags:       [
                      'cake',
                      'chocolate',
-                     'birthday'
+                     'birthday party'
                      ],
       },
 ]
