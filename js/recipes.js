@@ -16,7 +16,7 @@ let recipes = [
         cook_time: '10',
         cook_type: 'min',
         cook_label: 'Cook Time',
-        temp: "350°",
+        temp: "350",
         temp_alt: null,
         temp_label: 'Temperature',
         cuisine: 'Mexican',
@@ -136,7 +136,7 @@ let recipes = [
         cook_type: 'min',
         cook_label: 'Cook Time',
         temp: null,
-        temp_alt: "Simmer",
+        temp_alt: 'Simmer',
         temp_label: null,
         cuisine: 'American',
         course: 'Main Dish',
@@ -203,7 +203,7 @@ let recipes = [
         cook_time: '10',
         cook_type: 'min',
         cook_label: 'Cook Time',
-        temp: "350°",
+        temp: "350",
         temp_alt: null,
         temp_label: 'Temperature',
         cuisine: 'American',
@@ -265,7 +265,7 @@ let recipes = [
          cook_time: '20',
          cook_type: 'min',
          cook_label: 'Cook Time',
-         temp: "400°",
+         temp: "400",
          temp_alt: null,
          temp_label: 'Temperature',
          cuisine: 'American',
@@ -298,14 +298,14 @@ let recipes = [
                      'Take the cake out of the oven and let it cool for 15 minutes. then frost with a frosting of your choice.'
                      ],
          tips_var:   [
-                     'This is my favorite icing. Give it a try.',
+                     '^This is my favorite icing. Give it a try.',
                      '  - 2 1/4 cups powdered sugar',
                      '  - 1 t vanilla',
                      '  - 3 T soft margarine',
                      '  - 3 T milk',
                      '  - 3 drops of your favorite color of food coloring',
                      '    Then mix.',
-                     'For fun top it off with your favorite sprinkles and enjoy!'
+                     '^For fun top it off with your favorite sprinkles and enjoy!'
                      ],
          tags:       [
                      'cake',
