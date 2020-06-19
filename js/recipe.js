@@ -11,6 +11,8 @@ if (recipe_arr.length) {
     // Add title
     $("#recipe_title").html(rec.name);
 
+    // Add rating
+    $("#rating").html(rec.rating ? ('(' + rec.rating + ' / 5)') : '');
 
     // Add other info
     $("#time_total").html(rec.time_total);
