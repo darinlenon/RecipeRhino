@@ -15,7 +15,8 @@ let recipes = [
         cook_time: '10',
         cook_type: 'min',
         cook_label: 'Cook Time',
-        temp: '350',
+        temp: "350°",
+        temp_alt: null,
         temp_label: 'Temperature',
         cuisine: 'Mexican',
         course: 'Dessert',
@@ -50,10 +51,7 @@ let recipes = [
                     'Scoop out nice portions onto a greased cookie sheet and bake.',
                     ],
         tips_var: [
-                    'Bla Bla Bla',
-                    'Bla Bla Bla',
-                    'Bla Bla Bla',
-                    'Bla Bla Bla'
+                    "Don't mess with perfection!"
                     ],
         tags:       [
                     'cookie',
@@ -107,7 +105,7 @@ let recipes = [
                     'Then place all of the ingredients into a bowl and mix very well.',
                     'Let sit for 5 minutes and serve with tortilla chips.'
                     ],
-        tips_var: [
+        tips_var:   [
                     'I typically use a chopper to make my pico, so I always chop the garlic and jalapenos first to ensure that they are chopped to my liking. Next, I add the cilantro and onions and chop again. Lastly, I add the tomatoes to the mixture and chop once more, so that those chunks are bigger than the rest. Enjoy!'
                     ],
         tags:       [
@@ -176,7 +174,7 @@ let recipes = [
                     'Rinse and drain the chili and black beans. Then, drain the diced tomatoes and add everything to the mixture.',
                     'Simmer for 1 1/2 hours, make sure to stir every 15-20 minutes.'
                     ],
-        tips_var: [
+        tips_var:   [
                     'Garnish with sharp cheddar, monteray jack, scallions and sour cream. Enjoy!'
                     ],
         tags:       [
@@ -185,4 +183,129 @@ let recipes = [
                     'spicy'
                     ],
     },
+    {
+        id: 4,
+        name: "Joy's Banana Bread",
+        recipe_img: "Joys Banana Bread.png",
+        time_total: '30',
+        time_type: 'min',
+        time_label: 'Total Time',
+        yield: '4-5',
+        yield_type: 'loves',
+        yield_label: 'Yield',
+        prep_time: '20',
+        prep_type: 'min',
+        prep_label: 'Prep Time',
+        cook_time: '10',
+        cook_type: 'min',
+        cook_label: 'Cook Time',
+        temp: "350°",
+        temp_alt: null,
+        temp_label: 'Temperature',
+        cuisine: 'American',
+        course: 'Desert',
+        skill_level: 'Beginner',
+        pdf: 'Joys Banana Bread',
+        recipe_blurb: "My Sister has been the go to for Banana and Zucchini bread for as long as i can remember. This is her recipe. It is so good. I hope you like it.",
+        ingredients: [
+                    '2 cups sugar',
+                    '1 cup butter',
+                    '4 eggs',
+                    '4 tbsp milk',
+                    '2 tbsp vinegar',
+                    '8-12 bananas',
+                    '4 cups flour',
+                    '2 tsp baking soda',
+                    '1 tsp salt',
+                    '1 tsp cinnamon'
+                    ],
+        serving_size: '2 Slices',
+        total_servings: '36',
+        calories: '136',
+        carbohydrates: '28',
+        total_fat: '5',
+        sodium: '100',
+        protein: '2',
+        sugar: '271',     
+        instructions: [
+                    'Cream butter and sugar.',
+                    'Add eggs, milk, vinegar and bananas then mix well.',
+                    'Add the rest of the ingredients and mix.',
+                    'Grease and pour into pans (half full “no more!”).',
+                    'Then bake.'
+                    ],
+        tips_var:   [
+                    'I have been known from time to time to sprinkle chocolate chips on my bread.',
+                    "I've also caught myself throwing some in the batter for fun. Enjoy!",
+                    'Sometimes she will add walnuts chopped small into her batter. Do this at your own risk!'
+                    ],
+        tags:       [
+                    'banana',
+                    'bread'
+                    ],
+     },
+     {
+         id: 5,
+         name: "Texas Sheet Cake",
+         recipe_img: "Texas Sheet Cake.png",
+         time_total: '55',
+         time_type: 'min',
+         time_label: 'Total Time',
+         yield: '24',
+         yield_type: 'pieces',
+         yield_label: 'Yield',
+         prep_time: '20',
+         prep_type: 'min',
+         prep_label: 'Prep Time',
+         cook_time: '20',
+         cook_type: 'min',
+         cook_label: 'Cook Time',
+         temp: "400°",
+         temp_alt: null,
+         temp_label: 'Temperature',
+         cuisine: 'American',
+         course: 'Desert',
+         skill_level: 'Beginner',
+         pdf: 'Texas Sheet Cake',
+         recipe_blurb: "Nothing takes me back to the summers of my childhood faster than this. This is my birthday request every year. You will love this one for sure!",
+         ingredients: [
+                     '2 cups flour',
+                     '2 cups sugar',
+                     '1 t. baking soda',
+                     '2 eggs',
+                     '1 t. Vanilla',
+                     '1/2 cup buttermilk or (1/2cup milk 2/3 t vinegar)'
+                     ],
+         serving_size: '1 Piece',
+         total_servings: '24',
+         calories: '48',
+         carbohydrates: '8',
+         total_fat: '1',
+         sodium: '28',
+         protein: '2',
+         sugar: '1',     
+         instructions: [
+                     'Mix sugar and flour.',
+                     'Boil shortening, cocoa and water.',
+                     'Pour over flour and sugar then mix well.',
+                     'Add all remaining ingrediants and mix.',
+                     'Pour into large cookie sheet that has been greased and floured and bake.',
+                     'Take the cake out of the oven and let it cool for 15 minutes. then frost with a frosting of your choice.'
+                     ],
+         tips_var:   [
+                     'This is my favorite icing. Give it a try.',
+                     '  - 2 1/4 cups powdered sugar',
+                     '  - 1 t vanilla',
+                     '  - 3 T soft margarine',
+                     '  - 3 T milk',
+                     '  - 3 drops of your favorite color of food coloring',
+                     '    Then mix.',
+                     'For fun top it off with your favorite sprinkles and enjoy!'
+                     ],
+         tags:       [
+                     'cake',
+                     'chocolate',
+                     'birthday'
+                     ],
+      },
 ]
