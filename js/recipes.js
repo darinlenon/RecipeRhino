@@ -82,7 +82,7 @@ let recipes = [
         cuisine: 'Mexican',
         course: 'Side Dish',
         skill_level: 'Beginner',
-        pdf: 'Uncle_Darins_Pico_De_Gallo',
+        pdf: 'pico-de-gallo',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
                     '3-4 medium size ripe tomatoes',
@@ -555,4 +555,14 @@ let recipes = [
                          'casserole'
                          ],
           },
+]
+
+
+
+let featured = recipes[0]
+
+let newest = [ 
+    recipes[recipes.length - 1],
+    recipes[recipes.length - 2],
+    recipes[recipes.length - 3],
 ]

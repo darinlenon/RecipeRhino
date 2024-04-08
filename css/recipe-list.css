@@ -24,6 +24,7 @@
 
 .recipe-tile-name {
     max-width: 16em;
+    font-size: 20px;
 }
 
 .total-recipes {

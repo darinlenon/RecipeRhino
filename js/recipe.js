@@ -170,10 +170,10 @@ if (recipe_arr.length) {
 
 
     // Set image src
-    $("#recipe_img").attr("src", "images/recipe_images/" + rec.recipe_img);
+    $("#recipe_img").attr("src", "../images/recipe_images/" + rec.recipe_img);
 
 
     // Set pdf href
-    $("#pdf_link").attr("href", "images/recipe_pdfs/" + rec.pdf + ".pdf");
+    $("#pdf_link").attr("href", "../images/recipe_pdfs/" + rec.pdf + ".pdf");
 
 }

@@ -1,4 +1,3 @@
-
 // Set up recipe list
 var recipe_list_html = $("#recipe-list");
 
@@ -7,7 +6,7 @@ for(var i = 0; i < recipes.length; i++) {
     recipe_list_html.append( 
         '<div id="recipe-' + rec.id + '" class="recipe-tile">' +
             '<a href="recipe.html?id=' + rec.id + '">' +
-                '<img class="recipe-tile-img" src="images/recipe_images/' + rec.recipe_img + '">' +
+                '<img class="recipe-tile-img" src="../images/recipe_images/' + rec.recipe_img + '">' +
             '</a>' +
             '<h5 class="recipe-tile-name">' + rec.name + '</h5>' +
         '</div>'
