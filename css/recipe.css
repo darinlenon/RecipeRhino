@@ -1,3 +1,7 @@
 .recipe_img {
-  width: 100%;
+  width: 80%;
+}
+
+.recipe_title {
+  text-wrap: wrap;
 }
