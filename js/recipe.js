@@ -131,6 +131,31 @@ if (recipe_arr.length) {
     $("#protein").html(rec.protein + 'g');
     $("#sugar").html(rec.sugar + 'g');
 
+    let fifth_box_html = $("#5th-box");
+
+    console.log(rec)
+
+    if (rec.fiber) {
+        fifth_box_html.append( 
+            '<div class="separator-post"></div>' +
+            '<div class="nutrition-detail">' +
+                '<div class="left-box">' +
+                    'Fiber' +
+                    '<br/>' +
+                    '<span id="fiber">' + rec.fiber + 'g' + '</span>' +
+                '</div>' +
+                '<div class="right-box">' +
+                '</div>' +
+            '</div>'
+        );
+    }
+    
+
+    // $("#fiber").html(rec.fiber ? rec.fiber + 'g' : '');
+
+    
+
+
     
     // Set up tips
     var tips_var_html_list = $("#tips_var_list");
