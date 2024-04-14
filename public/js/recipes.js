@@ -619,7 +619,7 @@ let recipes = [
                id: 11,
                name: "Cheesy Chicken Tater Tot Casserole",
                rating: "5",
-               recipe_img: "Cheesy_Chicken_Tater_Tot_Casserole.JPG",
+               recipe_img: "Cheesy_Chicken_Tater_Tot_Casserole.jpg",
                time_total: '4',
                time_type: 'hr',
                time_label: 'Total Time',
