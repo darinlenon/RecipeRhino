@@ -683,6 +683,71 @@ let recipes = [
                            'tater tot'
                            ],
             },
+            {
+                id: 12,
+                name: "Stephs Caramel Brownies",
+                rating: "5",
+                recipe_img: "Stephs_Caramel_Brownies.jpg",
+                time_total: '34',
+                time_type: 'min',
+                time_label: 'Total Time',
+                yield: '12',
+                yield_type: 'servings',
+                yield_label: 'Yield',
+                prep_time: '10',
+                prep_type: 'min',
+                prep_label: 'Prep Time',
+                cook_time: '24',
+                cook_type: 'min',
+                cook_label: 'Cook Time',
+                temp: "350",
+                temp_alt: null,
+                temp_label: 'Temperature',
+                cuisine: 'American',
+                course: 'Desert',
+                skill_level: 'Beginner',
+                pdf: 'Stephs_Caramel_Brownies',
+                recipe_blurb: "Caramel Brownies are so easy to make and so delicious! Everyone always wants this caramel brownie recipe. With only six ingredients, this is going to be your new go to brownie recipe!",
+                ingredients: [
+                            '1 Milk Choclate Cake Mix',
+                            '3/4 C. Canned Evaporated Milk',
+                            '1 Stick of Margarine',
+                            '1 C. Milk Chocolate Chips',
+                            '30 Caramels',
+                            '-1/3 C. Canned Evaporated Milk'
+                            ],
+                serving_size: 'One square 3.25"x3"',
+                total_servings: '12',
+                calories: '111',
+                carbohydrates: '111',
+                total_fat: '111',
+                sodium: '111',
+                protein: '111',
+                sugar: '111',
+                fiber: '111',         
+                instructions: [
+                            'Spray Crockpot with nonstick cooking spray.',
+                            'Mix together: 1 Milk Choclate Cake Mix, 3/4 C. Canned Evaporated Milk, 3/4 C. Canned Evaporated Milk',
+                            'Spread half of mixture in pan.',
+                            'Bake at 350 for 6 Minutes.',
+                            'Melt in sauce pan: 30 Caramels, 1/3 C. Canned Evaporated Milk',
+                            'Remove from oven & sprinkle 1 C. Milk Chocolate Chips over baked portion.',
+                            'Pour melted caramel over baked portion.',
+                            'Spread remaining cake mix to cover top.',
+                            'Bake at 350 for 18 minutes.'
+                            ],
+                tips_var:   [
+                            "^When the brownies start to pull away from the sides of the pan, they are almost done. You will also notice some cracking on top of the brownies. If you like your brownies more gooey and moist, remove them from the oven toward the minimal suggested baking time.",
+                            "^Make sure to use chewy caramel candies to make the caramel sauce. If you can only find a one pound package, remove the extra two ounces, this isn’t one of those times in life where more caramel is better. Store-bought caramel sauce is too thin and won’t set up properly so will not work in this recipe.",
+                            "^Make it salted. Add kosher salt to make salted caramel brownies. Sprinkle 2 teaspoons kosher salt on top of the caramel sauce before topping with the brownie batter.",
+                            "^Add nuts. Layer 1/2 cup walnuts or pecans on top of the caramel sauce with the chocolate chips."
+                            ],
+                tags:       [
+                            'Brownies',
+                            'Caramel',
+                            'Chocolate'
+                            ],
+             },
 ]
 
 
