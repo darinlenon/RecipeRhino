@@ -83,7 +83,7 @@ let recipes = [
         course: 'Side Dish',
         skill_level: 'Beginner',
         pdf: 'pico-de-gallo',
-        recipe_blurb: "Put some kind of blurb here.",
+        recipe_blurb: "Do you love pico de gallo like I do? It’s a classic Mexican tomato dip (or sauce) that adds a fresh, healthy, low-calorie boost of flavor to just about any Mexican meal.",
         ingredients: [
             '3-4 medium size ripe tomatoes',
             '1/3 medium size onion',
@@ -337,7 +337,7 @@ let recipes = [
         course: 'Main Dish',
         skill_level: 'Beginner',
         pdf: 'Tater_Tot_Casserole',
-        recipe_blurb: "Put some kind of blurb here.",
+        recipe_blurb: "Truly the BEST Tater Tot Casserole recipe! Layers of amazing flavor combine for an easy and delicious dinner any night of the week!",
         ingredients: [
             '1 lb hamburger',
             '1 small onion',
@@ -396,7 +396,7 @@ let recipes = [
         course: 'Main Dish',
         skill_level: 'Beginner',
         pdf: 'Chicken_Enchiladas',
-        recipe_blurb: "Need to add some type of description here.",
+        recipe_blurb: "This is one of those recipes that everyone loves – even picky eaters! It’s not spicy and has a wonderful creamy sauce that really pulls it all together. It’s the perfect weeknight meal that can be pulled together pretty quickly!",
         ingredients: [
             '4 lg. chicken breasts (no bones or skin)',
             '2 cans cream of chicken soup',
@@ -461,7 +461,7 @@ let recipes = [
         course: 'Main Dish',
         skill_level: 'Beginner',
         pdf: 'Ham_Fried_Rice',
-        recipe_blurb: "Need to add some type of description here.",
+        recipe_blurb: "Everyone needs a go-to fried rice recipe! This easy ham fried rice is infinitely customizable and is fantastic for using up leftovers. So simple and so much flavor!",
         ingredients: [
             '4 cups COLD cooked white (jasmine) rice',
             '2 tbs. bacon grease or the oil of your choice',
@@ -490,7 +490,8 @@ let recipes = [
             'Push the rice out of the center of the skillet and add the butter. Allow it to melt and stir to distribute the melted butter throughout the rice. Taste the rice and add salt, ONLY if needed.'
         ],
         tips_var: [
-            "^The rice for this recipe needs to be completely chilled, so that it can be easily broken apart into individual grains without any clumping or sticking. I suggest making the rice a day or two (even as much as 4-5 days) before you want to use it. The key to great fried rice is using rice that is as dry as possible, so that your fried rice won’t be mushy or soft"
+            "^The rice for this recipe needs to be completely chilled, so that it can be easily broken apart into individual grains without any clumping or sticking. I suggest making the rice a day or two (even as much as 4-5 days) before you want to use it. The key to great fried rice is using rice that is as dry as possible, so that your fried rice won’t be mushy or soft",
+            "^The great news is that this whole fried rice situation is easily customizable to what you have on hand. The meat can be left out or swapped with another favorite. Other veggies can be added in also."
         ],
         tags: [
             'rice',
@@ -551,7 +552,8 @@ let recipes = [
             'Top ground beef with potato mixture, pressing it down slightly. sprinkle remaining 1/4 cup of shredded cheese on the top. 5. Bake at 350 degrees for 30-35 minutes or until topping is browned and crispy on top.'
         ],
         tips_var: [
-            "^Write something intresting here."
+            "^For longer storage, taco hashbrown casserole can also be frozen for up to 6 months. Wrap the cooked casserole in a double layer of plastic wrap or aluminum foil. Label the package with the date and contents, then store it in the freezer. When you’re ready to enjoy, thaw Taco Hashbrown Casserole overnight in the refrigerator before reheating as directed above. With proper storage, this casserole will remain delicious and flavorful for months!",
+            "^For a spicier version, you can add additional spicy taco seasoning or taco sauce to the mixture before baking. You can also change up the ingredients by adding cooked ground turkey, shredded chicken, or chorizo sausage as desired. Feel free to get creative and make this dish your own!"
         ],
         tags: [
             'tex-mex',
@@ -610,7 +612,7 @@ let recipes = [
             'Remove baking dish from oven. Brush on top of each cheese dog with butter mixture. Serve immediately.'
         ],
         tips_var: [
-            "^Write something intresting here."
+            "^To keep bottom from being doughy, put the prepared Crescent roll cheese hot dogs in the baking pan 1st, then pour the Chili around the hot dogs. You want the Crescent roll touching the bottom of the pan."
         ],
         tags: [
             'Chili',
