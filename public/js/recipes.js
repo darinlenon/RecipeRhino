@@ -752,7 +752,7 @@ let recipes = [
     },
     {
         id: 14,
-        name: "Chow_Mein_Noodle_Casserole",
+        name: "Chow Mein Noodle Casserole",
         rating: "5",
         recipe_img: "Chow_Mein_Noodle_Casserole.jpg",
         time_total: '1:20',
@@ -811,7 +811,7 @@ let recipes = [
     },
     {
         id: 15,
-        name: "Joys_Zucchini_Bread",
+        name: "Joys Zucchini Bread",
         rating: "5",
         recipe_img: "Joys_Zucchini_Bread.jpg",
         time_total: '1:20',
@@ -875,7 +875,7 @@ let recipes = [
     },
     {
         id: 16,
-        name: "Macaroni_Ham_Casserole",
+        name: "Macaroni Ham Casserole",
         rating: "5",
         recipe_img: "Macaroni_Ham_Casserole.jpg",
         time_total: '1:15',
