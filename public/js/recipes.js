@@ -641,7 +641,7 @@ let recipes = [
         course: 'Main Dish',
         skill_level: 'Beginner',
         pdf: 'Cheesy_Chicken_Tater_Tot_Casserole',
-        recipe_blurb: "This Crock Pot Chicken Tater Tot Casserole is a family favorite. Tater tots, cheese, chicken and bacon. A whole meal inone!",
+        recipe_blurb: "This Crock Pot Chicken Tater Tot Casserole is a family favorite. Tater tots, cheese, chicken and bacon. A whole meal in one!",
         ingredients: [
             '1 (32 oz.) bag frozen tater tots',
             '1 pack of cooked bacon cut into pieces (1/2 - 3/4 inch)',
