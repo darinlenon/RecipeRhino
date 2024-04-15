@@ -585,7 +585,7 @@ let recipes = [
         course: 'Main Dish',
         skill_level: 'Beginner',
         pdf: 'Chili_Cheese_Dog_Bake',
-        recipe_blurb: "Chili Cheesse Dog Bake is a fun twist to the classic hot dog, but in casserole form!",
+        recipe_blurb: "Chili Cheese Dog Bake is a fun twist to the classic hot dog, but in casserole form!",
         ingredients: [
             '1 can, 14 to 15 oz chili, heated',
             '1 pizza crust, can Pillsbury refrigerated classic',
