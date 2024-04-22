@@ -88,7 +88,6 @@ body, html {
 }
 
 .pdf-link:hover .pdf-img {
-    /* why is this not working?????s */
   content: url('images/detail_images/pdf_over.jpg');
 }
 
