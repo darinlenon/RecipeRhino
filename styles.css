@@ -1,0 +1,80 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%; /* Adjusted to have 20% unused space on each side */
+    margin: 0 auto;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.rating img {
+    width: 25px;
+    height: 25px;
+}
+.rating_text {
+    font-size:x-large;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.main_pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details img {
+    margin-bottom: 10px;
+    max-width: 90px;
+    height: auto;
+}
+
+.details2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details2 img {
+    margin-right: 50px; /* Add some spacing between images */
+    max-width: 175px;
+    height: auto;
+}
+
+.pdf {
+    /* justify-self: flex-end; nope */
+    margin-left: 80px; /* this worked but i dont like how it works with sizing */
+    /* margin-left: auto; This should push the image to the right end of its flex container but dosent???? */
+}
+
+.blurb {
+    font-size: 22px;
+    color: black;
+    text-align: left;
+}
