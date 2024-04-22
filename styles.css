@@ -9,37 +9,46 @@ body, html {
 .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh; /* Set minimum height to viewport height */
+    padding: 0 20%; /* Add padding (looks like white space)on left and right sides */
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 60%; /* Adjusted to have 20% unused space on each side */
-    margin: 0 auto;
+    align-items: stretch; /* Make items stretch to fill the container vertically */
+    width: 100%; /* makess the row fill whole 100% of the container width */
 }
 
 .title {
     flex: 1;
-    text-align: center;
+    text-align: left;
     font-size: xx-large;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 .rating img {
     width: 25px;
-    height: 25px;
 }
 .rating_text {
-    font-size:x-large;
+    font-size: x-large;
     font-weight: bold;
     padding-left: 10px;
 }
 
+.main_pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .main_pic img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    max-width: calc(100% * (3 / 2)); /* Set maximum width to maintain aspect ratio of 2:3 */
 }
 
 .details {
@@ -47,34 +56,45 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .details img {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-left: 4px;
     max-width: 90px;
     height: auto;
+    border: 1px solid #D2B48C;
+    
 }
 
 .details2 {
     display: flex;
-    justify-content: center;
+    width: 100%; /* this was nessary to make the div fill the entire width */
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .details2 img {
-    margin-right: 50px; /* Add some spacing between images */
     max-width: 175px;
     height: auto;
 }
 
 .pdf {
     /* justify-self: flex-end; nope */
-    margin-left: 80px; /* this worked but i dont like how it works with sizing */
+    /* margin-left: 80px; this worked but i dont like how it works with sizing */
     /* margin-left: auto; This should push the image to the right end of its flex container but dosent???? */
+}
+
+.pdf-link:hover .pdf-img {
+    /* why is this not working?????s */
+  content: url('images/detail_images/pdf_over.jpg');
 }
 
 .blurb {
     font-size: 22px;
     color: black;
     text-align: left;
+    margin-top: 10px;
 }
