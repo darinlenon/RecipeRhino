@@ -1,4 +1,5 @@
 <!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +13,8 @@
 <!-- --------------------Row 1 (Header)--------------------- -->
 <!-- --------------------Row 2 (Banner)--------------------- -->
 <!-- --------------------Row 3 (Recipe Title)--------------------- -->
-        <div class="row">
-            <div class="title">Grandma Lenon's Chocolate Chip Cookies
-            </div>
+        <div class="row title separator">
+            <div class="title">Grandma Lenon's Chocolate Chip Cookies</div>
         </div>
 <!-- --------------------Row 4 (Ratings)--------------------- -->
         <div class="row">
@@ -41,7 +41,6 @@
             </div>
         </div>
 <!-- --------------------Row 6 (Details2 & Print Button)--------------------- -->
-        <div class="row">
             <div class="details2">
                 <img src="images/detail_images/cu_me.jpg">
                 <img src="images/detail_images/co_de.jpg">
@@ -50,12 +49,96 @@
                     <img src="images/detail_images/pdf.jpg" class="pdf-img">
                 </a>                
             </div>
-        </div>
+            <div class="row separator">
+            </div>
 <!-- --------------------Row 7 (Blurb)--------------------- -->
         <div class="row">
-            <div class="blurb">My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!
-            </div>
+            <div class="blurb">My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!</div>
         </div>
+<!-- --------------------Row 8 (Ingredients & Nutritional Facts)--------------------- -->
+        <div class="row">
+            <!-- Left Column for Ingredients -->
+            <div class="ingredients">
+                <h2 class="Ingredients_title">Ingredients</h2>
+                <ul class="Ingredients">
+                    <li><input type="checkbox"> 2 cups shortening</li>
+                    <li><input type="checkbox"> 2 cups sugar</li>
+                    <li><input type="checkbox"> 1 cup brown sugar</li>
+                    <li><input type="checkbox"> 4 eggs</li>
+                    <li><input type="checkbox"> 4 cups flour</li>
+                    <li><input type="checkbox"> 2 teaspoons salt</li>
+                    <li><input type="checkbox"> 2 teaspoons baking soda</li>
+                    <li><input type="checkbox"> 4 teaspoons vanilla</li>
+                    <li><input type="checkbox"> 1 bag of chocolate chips</li>
+                </ul>
+                <div class="ingredient_note">Note: if you are missing an ingredient just<br>click it. It will highlight it to remind you<br>to pick it up.</div>
+                <div class="bg-image ingredients-bg"></div> <!-- Background image if needed -->
+            </div>            
+            <!-- Right Column for Nutritional Facts -->
+            <div class="nutritional">
+                <h2 class="nutritional_title">Nutritional Facts</h2>
+                <div class="nutritional_list">
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Serving Size</span><br>
+                            <span class="nutri_amt">1 Cookie</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Total Servings</span><br>
+                            <span class="nutri_amt">72</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Calories</span><br>
+                            <span class="nutri_amt">114</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Carbohydrates</span><br>
+                            <span class="nutri_amt">12g</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Total Fat</span><br>
+                            <span class="nutri_amt">7g</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Sodium</span><br>
+                            <span class="nutri_amt">85mg</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Protein</span><br>
+                            <span class="nutri_amt">1g</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Sugar</span><br>
+                            <span class="nutri_amt">7g</span>
+                        </p>
+                    </div>
+                    <div class="nutritional_box">
+                        <p>
+                            <span class="nutri_name">Fiber</span><br>
+                            <span class="nutri_amt">10g</span>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="bg-image nutritional-bg"></div>
+            </div>
+            
+        </div>
+<!-- --------------------Row 9 (Instructions)--------------------- -->
     </div>
     <script src="script.js"></script>
 </body>

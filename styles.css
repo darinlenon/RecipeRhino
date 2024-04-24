@@ -1,25 +1,28 @@
+
 /* styles.css */
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: rgb(255, 252, 248);
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Set minimum height to viewport height */
-    padding: 0 20%; /* Add padding (looks like white space)on left and right sides */
+    min-height: 100vh;
+    padding: 0 20%;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Make items stretch to fill the container vertically */
-    width: 100%; /* makess the row fill whole 100% of the container width */
+    align-items: stretch;
+    width: 100%;
 }
 
+/* --------------------Row 3 (Recipe Title)--------------------- */
 .title {
     flex: 1;
     text-align: left;
@@ -28,35 +31,40 @@ body, html {
     margin-bottom: 10px;
 }
 
+/* --------------------Row 4 (Ratings)--------------------- */
 .rating img {
     width: 25px;
 }
+
 .rating_text {
     font-size: x-large;
     font-weight: bold;
     padding-left: 10px;
 }
 
+/* --------------------Row 5 (Main Pic & Details)--------------------- */
 .main_pic {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .main_pic img {
     width: 100%;
     height: auto;
-    max-width: calc(100% * (3 / 2)); /* Set maximum width to maintain aspect ratio of 2:3 */
+    max-width: calc(100% * (3 / 2));
 }
 
 .details {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .details img {
@@ -64,13 +72,13 @@ body, html {
     margin-left: 4px;
     max-width: 90px;
     height: auto;
-    border: 1px solid #D2B48C;
-    
+    border: 1px solid #d28cba;
 }
 
+/* --------------------Row 6 (Details2 & Print Button)--------------------- */
 .details2 {
     display: flex;
-    width: 100%; /* this was nessary to make the div fill the entire width */
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -88,12 +96,136 @@ body, html {
 }
 
 .pdf-link:hover .pdf-img {
-  content: url('images/detail_images/pdf_over.jpg');
+    content: url('images/detail_images/pdf_over.jpg');
 }
 
+.row.separator {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 6px;
+    margin-top: 16px;
+}
+
+/* --------------------Row 7 (Blurb)--------------------- */
 .blurb {
     font-size: 22px;
     color: black;
     text-align: left;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+/* --------------------Row 8 (Ingredients & Nutritional Facts)--------------------- */
+.ingredients {
+    flex: 1;
+    width: 60%;
+    padding-right: 2%;
+    background-image: url('/images/bg-ingredients.png');
+    background-size: 100px auto; /* Setauto for height to maintain aspect ratio */
+    background-position: right bottom;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+.nutritional {
+    flex: 1;
+    width: 40%;
+    background-image: url('/images/bg-nutritional.png');
+    background-size: 50px auto; /* Set to auto for height to maintain aspect ratio */
+    background-position: right top;
+    background-color: rgb(255, 244, 230);
+    background-repeat: no-repeat;
+}
+
+.Ingredients_title {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 40px;
+}
+
+.Ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Ingredients li {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 25px 0; /* Add margin between each row */
+    display: flex;
+}
+
+.Ingredients input[type="checkbox"] {
+    margin-right: 10px; /* Add spacing between checkbox and text */
+}
+
+/* To style my checkboxes */
+.Ingredients input[type="checkbox"]::before {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+/* To style my checkboxes when checked */
+.Ingredients input[type="checkbox"]:checked::before {
+    background-color: rgb(255, 81, 0);
+}
+
+.ingredient_note {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-align: left;
+}
+
+.nutritional_title {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 10px;
+}
+
+.nutritional_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nutritional_box {
+    width: calc(45% - 0px);
+    border-bottom: 1px solid orange;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.nutritional_box p {
+    margin: 20px 0;
+}
+
+.nutri_name {
+    font-size: 20px;
+}
+
+.nutri_amt {
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* --------------------Row 9 (Instructions)--------------------- */
