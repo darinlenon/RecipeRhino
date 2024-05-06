@@ -745,7 +745,7 @@ let recipes = [
         id: 16,
         name: "Macaroni Ham Casserole",
         rating: "5",
-        recipe_img: "Macaroni_Ham_Casserole.jpg",
+        recipe_img: "Macaroni_Ham_Casserole.JPEG",
         time_total_image: 'tt75.jpg',
         yield_image: 's12.jpg',
         prep_time_image: 'pt30.jpg',
