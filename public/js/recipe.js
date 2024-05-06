@@ -112,27 +112,27 @@ if (recipe_arr.length) {
     $("#sugar").html(rec.sugar + 'g');
     $("#fiber").html(rec.fiber + 'g');
 
-    // let fifth_box_html = $("#5th-box");
+    let fifth_box_html = $("#5th-box");
 
-    // console.log(rec)
+    console.log(rec)
 
-    // if (rec.fiber) {
-    //     fifth_box_html.append( 
-    //         '<div class="separator-post"></div>' +
-    //         '<div class="nutrition-detail">' +
-    //             '<div class="left-box">' +
-    //                 'Fiber' +
-    //                 '<br/>' +
-    //                 '<span id="fiber">' + rec.fiber + 'g' + '</span>' +
-    //             '</div>' +
-    //             '<div class="right-box">' +
-    //             '</div>' +
-    //         '</div>'
-    //     );
-    // }
+    if (rec.fiber) {
+        fifth_box_html.append( 
+            '<div class="separator-post"></div>' +
+            '<div class="nutrition-detail">' +
+                '<div class="left-box">' +
+                    'Fiber' +
+                    '<br/>' +
+                    '<span id="fiber">' + rec.fiber + 'g' + '</span>' +
+                '</div>' +
+                '<div class="right-box">' +
+                '</div>' +
+            '</div>'
+        );
+    }
     
 
-    // $("#fiber").html(rec.fiber ? rec.fiber + 'g' : '');
+    $("#fiber").html(rec.fiber ? rec.fiber + 'g' : '');
 
 
 
