@@ -1,7 +1,563 @@
-.recipe_img {
-  width: 80%;
+/* styles.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f8f6f5;
 }
 
-.recipe_title {
-  text-wrap: wrap;
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 17.5%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
+/* Row 1 (Header) */
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 22%; /* Updated padding */
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.left-nav,
+.center-nav,
+.right-nav {
+  flex: 1; /* Equal width for each section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-nav {
+  justify-content: flex-start;
+  margin: 50px 0 11px 20px;
+}
+
+.right-nav {
+  justify-content: flex-end;
+  margin: 50px 20px 11px 0;
+}
+
+.nav-text {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  padding: 12px 0px;
+  border-bottom: 2px inset transparent;
+  transition: none;
+  font-size: 30px;
+  margin: 0 30px;
+}
+
+.nav-text li {
+  display: inline;
+  margin-right: 50px;
+  color: black;
+}
+
+.nav-text li:last-child {
+  margin-right: 0; /* Remove margin from the last item ???*/
+}
+
+.nav-text li.home a,
+.nav-text li.recipes a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-text li.home:hover a,
+.nav-text li.recipes:hover a {
+  color: rgb(255, 136, 0);
+}
+
+.header_logo {
+  width: 300px;
+  text-align: center;
+  margin-top: -5px;
+  padding: 0 15px;
+  display: block;
+  unicode-bidi: isolate;
+  box-sizing: inherit;
+}
+
+/* Row 2 (Banner) */
+.banner {
+  display: flex;
+  min-height: 210px;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.banner h1 {
+  font-family: 'Lora', serif;
+  font-weight: 900;
+  font-size: 30px;
+  font-style: normal;
+  text-transform: uppercase;
+  border: 6px solid #ff7b00;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.banner_pic {
+  background-image: url("../images/temp-images/banner-blog.jpg");
+}
+
+.banner_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 17.5%;
+  padding-bottom: 60px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.banner_heading {
+  background: #f8f6f5;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+
+/* Row 3 (Recipe Title) */
+.title {
+  flex: 1;
+  text-align: left;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+/* Row 4 (Ratings) */
+.rating img {
+  width: 25px;
+}
+
+.rating_text {
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* Row 5 (Main Pic & Details) */
+.main_pic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main_pic img {
+  width: 100%;
+  height: auto;
+  max-width: calc(100% * (3 / 2));
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.details img {
+  margin-bottom: 0px;
+  margin-left: 4px;
+  max-width: 90px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #e4d9d1;
+}
+
+/* Row 6 (Details2 & Print Button) */
+.details2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.details2 img {
+  max-width: 175px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #e4d9d1;
+}
+
+.pdf {
+  /* justify-self: flex-end; nope */
+  /* margin-left: 80px; this worked but i dont like how it works with sizing */
+  /* margin-left: auto; This should push the image to the right end of its flex container but dosent???? */
+}
+
+.pdf-link:hover .pdf-img {
+  content: url('../images/detail_images/pdf_over.jpg');
+}
+
+.row.separator {
+  border-bottom: 1px solid #e4d9d1;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+/* Row 7 (Blurb) */
+.blurb {
+  font-size: 22px;
+  color: black;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Row 8 (Ingredients & Nutritional Facts) */
+.ingredients {
+  border-top: 1px solid #e4d9d1;
+  border-left: 1px solid #e4d9d1;
+  border-bottom: 1px solid #e4d9d1;
+  flex: 1;
+  width: 60%;
+  padding-right: 2%;
+  background-image: url('/images/bg-ingredients.png');
+  background-size: 100px auto; /* Setauto for height to maintain aspect ratio */
+  background-position: right bottom;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.nutritional {
+  border-top: 1px solid #e4d9d1;
+  border-right: 1px solid #e4d9d1;
+  border-bottom: 1px solid #e4d9d1;
+  flex: 1;
+  width: 40%;
+  background-image: url('/images/bg-nutritional.png');
+  background-size: 50px auto; /* Set to auto for height to maintain aspect ratio */
+  background-position: right top;
+  background-color: #f6f2ee;
+  background-repeat: no-repeat;
+}
+
+.Ingredients_title {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+.Ingredients {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Ingredients li {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin: 25px 20px; /* Add margin between each row and from the edges */
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.Ingredients input[type="checkbox"] {
+  margin-right: 20px; /* Add spacing between checkbox and text */
+  margin-top: -5px;
+}
+
+/* To style my checkboxes */
+.Ingredients input[type="checkbox"]::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+/* To style my checkboxes when checked */
+.Ingredients input[type="checkbox"]:checked::before {
+  background-color: rgb(255, 81, 0);
+}
+
+.ingredient_note {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+.ingredient_note .note {
+  font-weight: bolder;
+}
+
+.nutritional_title {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-left: 10px;
+}
+
+.nutritional_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nutritional_box {
+  width: calc(45% - 0px);
+  border-bottom: 1px solid #e4d9d1;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nutritional_box p {
+  margin: 20px 0;
+}
+
+.nutri_name {
+  font-size: 20px;
+}
+
+.nutri_amt {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* Row 9 (Instructions) */
+.instructions-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f6f5;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.Instructions_title {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+.instructions_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instructions_steps {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.instructions_text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+/* Row 10 (Tips & Variations) */
+.tips_background {
+  border: 1px solid #e4d9d1;
+  background-color: #faefe5;
+  padding: 32px;
+  background-image: url("../images/bg-tips.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-bottom: 44px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.tips_title {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  text-align: left;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.tips_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tips_text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px; /* Add spacing between tips */
+}
+
+.tips_text i {
+  font-size: 14px; /* Adjust the size of the checkmarks */
+  margin-right: 10px;
+  color: #ff7b00;
+  text-shadow:  /* this is how I outlined the checkmarks */
+      -1px -1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black,
+      1px 1px 0 black;
+}
+
+.tips_flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+/* Row 11 (Return) */
+.return_background {
+  background-color: #f8f6f5;
+  margin-top: 10px;
+  padding: 10px 17.5%;
+  box-sizing: border-box;
+}
+
+.return_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.return_button {
+  background-color: #ff7b00;
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: color 0.3s;
+  box-shadow: 4px 4px 10px rgba(7, 7, 7, 0.694);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.return_button:hover {
+  background-color: black;
+}
+
+/* Row 12 (Tags) */
+.tags_background {
+  background-color: #f8f6f5;
+  padding: 40px 2.5%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tags_title {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  margin-right: 15px; /* Space between title and tags */
+}
+
+.tags_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.tag {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-right: 15px; /* Increases the space between each tag */
+  padding: 5px; /* Add padding to create space inside the box */
+  border: 1px solid #e4d9d1;
+  box-sizing: border-box;
+}
+
+.tag:last-child {
+  margin-right: 0; /* Remove the margin from last tag */
+}
+
+/* Row 13 (Footer) */
+.footer_background {
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_content {
+  width: 100%;
+  max-width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_logo {
+  width: 200px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.footer_line {
+  width: 75%;
+  border: 1px solid #e4d9d1;
+  margin: 0 auto 30px auto; /* Set top and bottom margins to 0 and auto for left and right margins */
+}
+
+.copyright {
+  text-align: center;
+  opacity: 1;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 400;
+  margin-bottom: 0; 
 }

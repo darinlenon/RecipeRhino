@@ -4656,7 +4656,7 @@ div.widget-measurements .default-btn {
 .recipe-detail-body .rating-box {
   display: inline-block;
   padding: 0;
-  float: right;
+  float: left;
   width: auto;
 }
 .recipe-detail-body .rating-box .icon-container {
@@ -4669,6 +4669,7 @@ div.widget-measurements .default-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: -10px;
 }
 .pre-tags li {
   display: flex;
@@ -4676,7 +4677,7 @@ div.widget-measurements .default-btn {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  margin: 0 30px;
+  margin: 0 10px;
 }
 .pre-tags-bold {
   font-weight: bold;

@@ -4,24 +4,14 @@ let recipes = [
         name: "Grandma Lenon's Chocolate Chip Cookies",
         rating: "5.1",
         recipe_img: "chocolate_chip_cookies.png",
-        time_total: '40',
-        time_type: 'min',
-        time_label: 'Total Time',
-        yield: '6',
-        yield_type: 'dozen',
-        yield_label: 'Yield',
-        prep_time: '30',
-        prep_type: 'min',
-        prep_label: 'Prep Time',
-        cook_time: '10',
-        cook_type: 'min',
-        cook_label: 'Cook Time',
-        temp: "350",
-        temp_alt: null,
-        temp_label: 'Temperature',
-        cuisine: 'Mexican',
-        course: 'Dessert',
-        skill_level: 'Beginner',
+        time_total_image: 'tt40.jpg',
+        yield_image: 's72.jpg',
+        prep_time_image: 'pt30.jpg',
+        cook_time_image: 'ct10.jpg',
+        temp_image: 't350.jpg', 
+        cuisine: 'cu_am.jpg',
+        course: 'co_de.jpg',
+        skill_level: 'sk_be.jpg',
         pdf: 'Grandma_Lenons_Chocolate_Chip_Cookies',
         recipe_blurb: "My Mom has been making these since I was a child. They are still my very favorite over 50 year later. I hope you love them as much as I do!",
         ingredients: [
@@ -43,6 +33,7 @@ let recipes = [
         sodium: '85',
         protein: '1',
         sugar: '7',
+        fiber: '999',
         instructions: [
             'Cream shortening, add sugar gradually and cream.',
             'Add eggs and mix.',
@@ -52,36 +43,30 @@ let recipes = [
             'Scoop out nice portions onto a greased cookie sheet and bake.',
         ],
         tips_var: [
-            "Don't mess with perfection!"
+            'Dont mess with perfection!',
+            'cookie added for testing purposes',
+            'gma added for testing purposes',
         ],
         tags: [
             'cookie',
-            'chocolate'
+            'chocolate',
+            'round',
+            'brown'
         ],
     },
     {
         id: 2,
         name: "Uncle Darin's Pico De Gallo",
-        rating: "5",
+        rating: "4.4",
         recipe_img: "pico_image.jpg",
-        time_total: '15',
-        time_type: 'min',
-        time_label: 'Total Time',
-        yield: '3-4',
-        yield_type: 'cups',
-        yield_label: 'Yield',
-        prep_time: '10',
-        prep_type: 'min',
-        prep_label: 'Prep Time',
-        cook_time: '5',
-        cook_type: 'min',
-        cook_label: 'Wait Time',
-        temp: null,
-        temp_alt: "Don't Cook",
-        temp_label: null,
-        cuisine: 'Mexican',
-        course: 'Side Dish',
-        skill_level: 'Beginner',
+        time_total_image: 'tt15.jpg',
+        yield_image: 's4.jpg',
+        prep_time_image: 'pt10.jpg',
+        cook_time_image: 'ct5.jpg',
+        temp_image: 't-.jpg',
+        cuisine: 'cu_me.jpg',
+        course: 'co_ap.jpg',
+        skill_level: 'sk_be.jpg',
         pdf: 'pico-de-gallo',
         recipe_blurb: "Do you love pico de gallo like I do? It’s a classic Mexican tomato dip (or sauce) that adds a fresh, healthy, low-calorie boost of flavor to just about any Mexican meal.",
         ingredients: [
@@ -101,6 +86,7 @@ let recipes = [
         sodium: '249',
         protein: '1',
         sugar: '2',
+        fiber: '777',
         instructions: [
             'Chop garlic and jalapenos into fine pieces (1/16-1/8” chunks).',
             'Then chop the remaining ingredients to whatever size you desire.',
@@ -108,7 +94,9 @@ let recipes = [
             'Let sit for 5 minutes and serve with tortilla chips.'
         ],
         tips_var: [
-            'I typically use a chopper to make my pico, so I always chop the garlic and jalapenos first to ensure that they are chopped to my liking. Next, I add the cilantro and onions and chop again. Lastly, I add the tomatoes to the mixture and chop once more, so that those chunks are bigger than the rest. Enjoy!'
+            'I typically use a chopper to make my pico, so I always chop the garlic and jalapenos first to ensure that they are chopped to my liking. Next, I add the cilantro and onions and chop again. Lastly, I add the tomatoes to the mixture and chop once more, so that those chunks are bigger than the rest. Enjoy!',
+            'tomato added for testing purposes',
+            'onion added for testing purposes'
         ],
         tags: [
             'garlic',
@@ -937,14 +925,12 @@ let recipes = [
             'Casserole'
         ],
     },
-]
+];
 
-
-
-let featured = recipes[0]
+let featured = recipes[0];
 
 let newest = [
     recipes[recipes.length - 1],
     recipes[recipes.length - 2],
     recipes[recipes.length - 3],
-]
+];
