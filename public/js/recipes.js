@@ -2,7 +2,7 @@ let recipes = [
     {
         id: 1,
         name: "Grandma Lenon's Chocolate Chip Cookies",
-        rating: "5.1",
+        rating: "5",
         recipe_img: "chocolate_chip_cookies.png",
         time_total_image: 'tt40.jpg',
         yield_image: 's72.jpg',
@@ -641,7 +641,7 @@ let recipes = [
     {
         id: 14,
         name: "Chow Mein Noodle Casserole",
-        rating: "5",
+        rating: "4.6",
         recipe_img: "Chow_Mein_Noodle_Casserole.jpg",
         time_total_image: 'tt80.jpg',
         yield_image: 's12.jpg',
@@ -690,7 +690,7 @@ let recipes = [
     {
         id: 15,
         name: "Joys Zucchini Bread",
-        rating: "5",
+        rating: "4.4",
         recipe_img: "Joys_Zucchini_Bread.jpg",
         time_total_image: 'tt80.jpg',
         yield_image: 's12.jpg',
@@ -744,7 +744,7 @@ let recipes = [
     {
         id: 16,
         name: "Macaroni Ham Casserole",
-        rating: "5",
+        rating: "4.2",
         recipe_img: "Macaroni_Ham_Casserole.JPEG",
         time_total_image: 'tt75.jpg',
         yield_image: 's12.jpg',

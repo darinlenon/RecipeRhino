@@ -146,7 +146,7 @@ body, html {
 
 /* Row 4 (Ratings) */
 .rating img {
-  width: 25px;
+  height: 21px;
 }
 
 .rating_text {
