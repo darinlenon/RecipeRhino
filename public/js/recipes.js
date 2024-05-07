@@ -56,7 +56,7 @@ let recipes = [
     {
         id: 2,
         name: "Uncle Darin's Pico De Gallo",
-        rating: "4.4",
+        rating: "4.25",
         recipe_img: "pico_image.jpg",
         time_total_image: 'tt15.jpg',
         yield_image: 's4.jpg',
@@ -107,7 +107,7 @@ let recipes = [
     {
         id: 3,
         name: "Grandpa Lenon's Idaho Trail Chili",
-        rating: "4.7",
+        rating: "4.51",
         recipe_img: "Grandpa_Lenons_Idaho_Trail_Chili.png",
         time_total_image: 'tt2h.jpg',
         yield_image: 's4.jpg',
@@ -165,7 +165,7 @@ let recipes = [
     {
         id: 4,
         name: "Joy's Banana Bread",
-        rating: "4.9",
+        rating: "4.66",
         recipe_img: "Joys_Banana_Bread.png",
         time_total_image: 'tt30.jpg',
         yield_image: 's5.jpg',
@@ -217,7 +217,7 @@ let recipes = [
     {
         id: 5,
         name: "Texas Sheet Cake",
-        rating: "4.8",
+        rating: "4",
         recipe_img: "Texas_Sheet_Cake.png",
         time_total_image: 'tt55.jpg',
         yield_image: 's24.jpg',
@@ -321,7 +321,7 @@ let recipes = [
     {
         id: 7,
         name: "Chicken Enchiladas",
-        rating: "4.95",
+        rating: "4.9",
         recipe_img: "Chicken_Enchiladas.png",
         time_total_image: 'tt60.jpg',
         yield_image: 's6.jpg',

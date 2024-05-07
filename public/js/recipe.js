@@ -14,30 +14,37 @@ if (recipe_arr.length) {
     $("#recipe_title").html(rec.name);
 
     // Row 4 (Ratings)
-    setUpRatings(rec.rating);
+setUpRatings(rec.rating);
 
-    function setUpRatings(rating) {
-        // Add rating text
-        $("#rating_text").html(rating ? (' ' + rating + ' / 5.0 ') : '');
+function setUpRatings(rating) {
+    // Add rating text
+    $("#rating_text").html(rating ? (' ' + (Math.round(rating * 10) / 10).toFixed(1) + ' / 5.0 ') : '');
+
+    // Set up rating images
+    var rating_html_container = $("#rating_images");
     
-        // Set up rating images
-        var rating_html_container = $("#rating_images");
-        
-        // ex: 4.7
-    
-        let rating_decimal = rating % 1 // ex: 0.7
-        rating_decimal = Math.round(rating_decimal * 10) / 10; // round number to nearest tenth
-        let rating_whole = rating - rating_decimal // ex: 4
-    
-        if (rating_decimal <= 0.25) {
+    // ex: 4.7
+    let rating_decimal = rating % 1; // ex: 0.7
+    rating_decimal = Math.round(rating_decimal * 10) / 10; // round number to nearest tenth
+    let rating_whole = Math.floor(rating); // ex: 4
+
+    if (rating_whole === 5) {
+        // Rating is exactly 5, display 5 full rating images
+        for (var i = 0; i < 5; i++) {
+            rating_html_container.prepend( 
+                '<img src="../images/rating_icon.png">'
+            );
+        }
+    } else {
+        if (rating_decimal > 0.01 && rating_decimal <= 0.33) {
             rating_html_container.prepend( 
                 '<img src="../images/rating25_icon.png">'
             );
-        } else if (rating_decimal > 0.25 && rating_decimal <= 0.5) {
+        } else if (rating_decimal > 0.3 && rating_decimal <= 0.6) {
             rating_html_container.prepend( 
                 '<img src="../images/rating50_icon.png">'
             );
-        } else if (rating_decimal > 0.5 && rating_decimal <= 0.75) {
+        } else if (rating_decimal > 0.6 && rating_decimal <= 0.9) {
             rating_html_container.prepend(
                 '<img src="../images/rating75_icon.png">'
             );
@@ -46,13 +53,14 @@ if (recipe_arr.length) {
                 '<img src="../images/rating_icon.png">'
             );
         }
-    
+
         for(var i = 0; i < rating_whole; i++) {
             rating_html_container.prepend( 
                 '<img src="../images/rating_icon.png">'
             );
-        };        
-    }
+        }
+    }     
+}
     
     // Row 5 (Main Pic & Details)
     $("#recipe_img").attr("src", "../images/recipe_images/" + rec.recipe_img);
