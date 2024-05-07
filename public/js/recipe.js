@@ -64,11 +64,11 @@ function setUpRatings(rating) {
     
     // Row 5 (Main Pic & Details)
     $("#recipe_img").attr("src", "../images/recipe_images/" + rec.recipe_img);
-    $("#time_total_image").attr("src", "../images/detail_images/" + rec.time_total_image);
-    $("#yield_image").attr("src", "../images/detail_images/" + rec.yield_image);
-    $("#prep_time_image").attr("src", "../images/detail_images/" + rec.prep_time_image);
-    $("#cook_time_image").attr("src", "../images/detail_images/" + rec.cook_time_image);
-    $("#temp_image").attr("src", "../images/detail_images/" + rec.temp_image);
+    $("#time_total_image").attr("src", "../images/detail_images/tt" + rec.time_total_image +".jpg");
+    $("#yield_image").attr("src", "../images/detail_images/s" + rec.yield_image +".jpg");
+    $("#prep_time_image").attr("src", "../images/detail_images/pt" + rec.prep_time_image +".jpg");
+    $("#cook_time_image").attr("src", "../images/detail_images/ct" + rec.cook_time_image +".jpg");
+    $("#temp_image").attr("src", "../images/detail_images/t" + rec.temp_image +".jpg");
 
     // Row 6 (Details2 & Print Button)
     $("#cuisine").attr("src", "../images/detail_images/" + rec.cuisine);
