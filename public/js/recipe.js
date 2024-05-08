@@ -71,9 +71,9 @@ function setUpRatings(rating) {
     $("#temp_image").attr("src", "../images/detail_images/t" + rec.temp_image +".jpg");
 
     // Row 6 (Details2 & Print Button)
-    $("#cuisine").attr("src", "../images/detail_images/" + rec.cuisine);
-    $("#course").attr("src", "../images/detail_images/" + rec.course);
-    $("#skill_level").attr("src", "../images/detail_images/" + rec.skill_level);
+    $("#cuisine").attr("src", "../images/detail_images/cu_" + rec.cuisine +".jpg");
+    $("#course").attr("src", "../images/detail_images/co_" + rec.course +".jpg");
+    $("#skill_level").attr("src", "../images/detail_images/sk_" + rec.skill_level +".jpg");
     // Set pdf href
     $("#pdf").attr("href", "../images/recipe_pdfs/" + rec.pdf + ".pdf");
 
