@@ -42,9 +42,7 @@ let recipes = [
             'Scoop out nice portions onto a greased cookie sheet and bake.',
         ],
         tips_var: [
-            'Dont mess with perfection!',
-            'cookie added for testing purposes',
-            'gma added for testing purposes',
+            '^Dont mess with perfection!',
         ],
         tags: [
             'cookie',
@@ -92,9 +90,7 @@ let recipes = [
             'Let sit for 5 minutes and serve with tortilla chips.'
         ],
         tips_var: [
-            'I typically use a chopper to make my pico, so I always chop the garlic and jalapenos first to ensure that they are chopped to my liking. Next, I add the cilantro and onions and chop again. Lastly, I add the tomatoes to the mixture and chop once more, so that those chunks are bigger than the rest. Enjoy!',
-            'tomato added for testing purposes',
-            'onion added for testing purposes'
+            '^I typically use a chopper to make my pico, so I always chop the garlic and jalapenos first to ensure that they are chopped to my liking. Next, I add the cilantro and onions and chop again. Lastly, I add the tomatoes to the mixture and chop once more, so that those chunks are bigger than the rest. Enjoy!',
         ],
         tags: [
             'garlic',
@@ -154,7 +150,7 @@ let recipes = [
             'Simmer for 1 1/2 hours, make sure to stir every 15-20 minutes.'
         ],
         tips_var: [
-            'Garnish with sharp cheddar, monteray jack, scallions and sour cream. Enjoy!'
+            '^Garnish with sharp cheddar, monteray jack, scallions and sour cream. Enjoy!'
         ],
         tags: [
             'dutch oven',
@@ -205,9 +201,9 @@ let recipes = [
             'Then bake.'
         ],
         tips_var: [
-            'I have been known from time to time to sprinkle chocolate chips on my bread.',
-            "I've also caught myself throwing some in the batter for fun. Enjoy!",
-            'Sometimes she will add walnuts chopped small into her batter. Do this at your own risk!'
+            '^I have been known from time to time to sprinkle chocolate chips on my bread.',
+            "^I've also caught myself throwing some in the batter for fun. Enjoy!",
+            '^Sometimes she will add walnuts chopped small into her batter. Do this at your own risk!'
         ],
         tags: [
             'banana',
@@ -255,12 +251,12 @@ let recipes = [
         ],
         tips_var: [
             '^This is my favorite icing. Give it a try.',
-            '  - 2 1/4 cups powdered sugar',
-            '  - 1 t vanilla',
-            '  - 3 T soft margarine',
-            '  - 3 T milk',
-            '  - 3 drops of your favorite color of food coloring',
-            '    Then mix.',
+            '    - 2 1/4 cups powdered sugar',
+            '    - 1 t vanilla',
+            '    - 3 T soft margarine',
+            '    - 3 T milk',
+            '    - 3 drops of your favorite color of food coloring',
+            '     Then mix.',
             '^For fun top it off with your favorite sprinkles and enjoy!'
         ],
         tags: [
@@ -732,7 +728,7 @@ let recipes = [
             'Once all ingredients are mixed together well pour into greased pans (filling pans only half way full).'
         ],
         tips_var: [
-            "^you can also use muffin pans. Cook muffins for approximately 20 minutes",
+            "^You can also use muffin pans. Cook muffins for approximately 20 minutes",
             "^A beginner baker can easily make this quick bread, and it’s a wonderful recipe if you have eager young bakers ready to help!",
             "^Let’s not forget optional add-ins like chocolate chips,  raisins, or even blueberries. Sometimes I turn it into a dessert with vanilla icing or cream cheese frosting (I’d halve the cream cheese frosting recipe). Honestly, this quick bread welcomes a bounty of tasty extras!"
         ],
