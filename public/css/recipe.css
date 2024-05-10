@@ -452,6 +452,11 @@ body, html {
   align-items: baseline;
 }
 
+.extra_spacing {
+  margin-left: 50px;
+}
+
+
 /* Row 11 (Return) */
 .return_background {
   background-color: #f8f6f5;

@@ -150,26 +150,31 @@ let tips_var = rec.tips_var;
 
 for (var i = 0; i < tips_var.length; i++) {
     var tip = tips_var[i];
-    var add_check = false;
 
     if (tip.startsWith('^')) {
-        add_check = true;
         tip = tip.substring(1);
+        tips_var_html_list.append(
+            '<li class="tips_flexrow">' +
+            '<div class="tips_text">' +
+            '<span class="tips_text"><i class="fa fa-check"></i></span>' +
+            '</div>' +
+            '<div class="tips_text">' +
+            '<p>' + tip + '</p>' +
+            '</div>' +
+            '</li>'
+        );
+    } else {
+        tips_var_html_list.append(
+            '<li class="tips_flexrow">' +
+            '<div class="tips_text"></div>' +
+            '<div class="tips_text extra_spacing">' + // apply extra_spacing class
+            '<p>' + tip + '</p>' +
+            '</div>' +
+            '</li>'
+        );
     }
+}
 
-    tips_var_html_list.append(
-        '<li class="tips_flexrow">' +
-        '<div class="tips_text">' + 
-        (add_check ? '<span class="tips_text"><i class="fa fa-check"></i></span>' : '') + // include check mark if add_check is true
-        '</div>' +
-        '<div class="tips_text i">' + // tip text div
-        '<p>' +
-        tip +
-        '</p>' +
-        '</div>' +
-        '</li>'
-    );
-};
 
     // Row 12 (Tags)
     var tags_html_list = $("#tags_list");

@@ -305,7 +305,7 @@ let recipes = [
             'Finally arrange the tater tots neatly to cover the entire top of the dish.'
         ],
         tips_var: [
-            '^Some people really enjoy sprinkeling cheese across the top before cooking. Enjoy!'
+            '^Some people really enjoy sprinkling cheese across the top before cooking. Enjoy!'
         ],
         tags: [
             'casserole',
@@ -685,7 +685,7 @@ let recipes = [
     },
     {
         id: 15,
-        name: "Joys Zucchini Bread",
+        name: "Joy's Zucchini Bread",
         rating: "4.4",
         recipe_img: "Joys_Zucchini_Bread.jpg",
         time_total_image: '80',
@@ -787,6 +787,207 @@ let recipes = [
             'Campbells soup',
             'pasta',
             'Casserole'
+        ],
+    },
+    {
+        id: 17,
+        name: "Darin‘s Jalapeño Barbecue Sauce Recipe",
+        rating: "4.9",
+        recipe_img: "Darin‘s_jalapeno_barbecue_sauce.jpg",
+        time_total_image: '40',
+        yield_image: '72',
+        prep_time_image: '10',
+        cook_time_image: '30',
+        temp_image: 'mh', 
+        cuisine: 'an',
+        course: 'co',
+        skill_level: 'be',
+        pdf: 'Darin‘s_jalapeno_barbecue_sauce',
+        recipe_blurb: "This took some time to figure out, but it was definatly worth the wait. try it just the perfect amount of heat.",
+        ingredients: [
+            '2 1/4 cups brown sugar',
+            '3/4 cup rounded off diced pickled jalapeños, drained',
+            '1 1/2 tsp. granulated garlic (not powder) (I usually find it in the Mexican spice section)',
+            '1 1/2 tsp. kosher salt (I use coarse but I don’t think it would matter. Just habit.)',
+            '3/4 tsp. coarse ground pepper',
+            '3 cups ketchup',
+            '3 Tbls. molasses',
+            '1 1/2 Tbls. Worcestershire sauce',
+            '3/4 tsp. liquid smoke'
+        ],
+        serving_size: '2 Tbls',
+        total_servings: '80',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Combine the first five ingrediants in a sauce pan and combine well. (no heat)',
+            'Then add the last four ingrediants and mix together.',
+            'Then turn the heat to about medium high. From this point I usually stir continually.',
+            'Bring the mixture to a boil.',
+            'After it starts to boil I turn the heat down to low and simmer it for 15-20ish minutes (I stir this whole time with a whisk because I’m afraid the sugar will burn but it’s up to you) This will allow some of the water to evaporate thickening up the sauce.',
+            'Then I just remove it from the heat and let it sit for about 10 minutes to cool.',
+            'Then I pour it into bottles and let it sit on the cupboard for a few hours to cool all the way off.',
+            'Lastly I put the lids on and store it in the fridge.'
+        ],
+        tips_var: [
+            "^This fairly straight foreward recipe and can be used on a multitude of thing (Pulled Pork, Brisket, Chicken and even tacos)."
+        ],
+        tags: [
+            'Sauce',
+            'BBQ',
+            'Pork',
+            'Beef'
+        ],
+    },
+    {
+        id: 18,
+        name: "Peaunt Blueberry Dog Treats",
+        rating: "5",
+        recipe_img: "Peaunt_Blueberry_Dog_Treats.jpg",
+        time_total_image: '30',
+        yield_image: '48',
+        prep_time_image: '10',
+        cook_time_image: '20',
+        temp_image: '300', 
+        cuisine: 'an',
+        course: 'tr',
+        skill_level: 'be',
+        pdf: 'Peaunt_Blueberry_Dog_Treats',
+        recipe_blurb: "This is a fun easy to make treat that Ellie loves",
+        ingredients: [
+            '1 cup oat flour',
+            '1/3 cup xylitol-free peanut butter',
+            '1/4 Cup unsweetened apple sauce',
+            '1/2 cup rolled oats',
+            '1 egg',
+            '1/3 cup mashed blueberries'
+        ],
+        serving_size: 'One medium treat',
+        total_servings: '48',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Preheat your oven to 300.',
+            'In a bowl combine all the ingredients and mix well.',
+            'Add the mixture to a baking mold.',
+            'bake at 300 for 20 minutes.',
+            'Allow the treats to cool and top with extra drizzled peanut butter if you desire.'
+        ],
+        tips_var: [
+            "^You can substitute a number of different fruits. Experiment and make this your own."
+        ],
+        tags: [
+            'Dog',
+            'treats',
+            'peanut butter',
+            'blue berries'
+        ],
+    },
+    {
+        id: 19,
+        name: "My Favorite Pizza Sauce",
+        rating: "4.9",
+        recipe_img: "My_Favorite_Pizza_Sauce.jpg",
+        time_total_image: '20',
+        yield_image: '10',
+        prep_time_image: '20',
+        cook_time_image: '0',
+        temp_image: '-', 
+        cuisine: 'it',
+        course: 'in',
+        skill_level: 'be',
+        pdf: 'My_Favorite_Pizza_Sauce',
+        recipe_blurb: "This is my go to sauce. Everyone loves it. This sauce has a good strong flavor.",
+        ingredients: [
+            '6 oz tomato paste (1 -6 oz can)',
+            '15 oz tomato sauce (1 - 15 oz can)',
+            '1-2 Tbls oregano to taste',
+            '2 Tbls Italian seasoning',
+            '1/2 tsp garlic powder',
+            '1/2 tsp onion powder',
+            '1/2 Tbls garlic salt',
+            '1/4 tsp freshly ground black pepper',
+            '1 tsp sugar'
+        ],
+        serving_size: '1/4 cup',
+        total_servings: '10',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Mix tomato paste and sauce together in a medium size bowl until well combined (all the lumps of paste are mixed into the sauce).',
+            'Add the rest of the ingredients and mix well!',
+            'Let the sauce sit for a mininum of 20 minutes to let the flavors combine(It is best to let this sauce sit in the fridge for 2-3 hours. for best flavor)'
+        ],
+        tips_var: [
+            "^This sauce is always a hit dont be afraid to double the batch.",
+            "^Leftovers of this is sauce are always great for pizza toast in the next few days.",
+            "I use the sauce on a homemade pizza for dinner and then for lunch on some tortilla pizzas."
+        ],
+        tags: [
+            'pizza',
+            'dip',
+            'sauce'
+        ],
+    },
+    {
+        id: 20,
+        name: "Fresh and Light Pizza Sauce",
+        rating: "4.8",
+        recipe_img: "Fresh_and_Light_Pizza_Sauce.jpg",
+        time_total_image: '10',
+        yield_image: '8',
+        prep_time_image: '10',
+        cook_time_image: '0',
+        temp_image: '-', 
+        cuisine: 'it',
+        course: 'in',
+        skill_level: 'be',
+        pdf: 'Fresh_and_Light_Pizza_Sauce',
+        recipe_blurb: "O-M-G! This is my new “go-to” pizza sauce. Only 5 ingredients. Nothing crazy and it is ready in no time. I used a can of San Marzano tomatoes. I highly recommend San Marzano tomatoes. They are delicious. I find them at Fresh Market, Whole Foods and Publix where I live. If you can't find San Marzano tomatoes, buy a good name brand can of whole tomatoes. The tomatoes are the star in this recipe. Don't skimp!!",
+        ingredients: [
+            '1 (28-oz) can whole peeled tomatoes, drained',
+            '2 Tbsp extra-virgin olive oil',
+            '2 large garlic cloves, minced',
+            '2 Tbsp finely grated Parmigiano- Reggiano cheese',
+            '1 Tbsp sugar'
+        ],
+        serving_size: '1/4 cup',
+        total_servings: '8',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Put tomatoes in food processor and pulse 4 or 5 times.',
+            'Pour tomatoes in a bowl, add remaining ingredients and wisk together.',
+            'Let rest at room temperature for 1 hour.'
+        ],
+        tips_var: [
+            "^Cover and refrigerate for up to 3 days.",
+            "^This is also a great sauce for breadsticks, toasted ravioli, and on top of our Air Fryer Chicken Parmesan. We usually serve this with a quick salad for a meal that is 100 times better than delivery!"
+        ],
+        tags: [
+            'pizza',
+            'dip',
+            'sauce'
         ],
     },
 ];
