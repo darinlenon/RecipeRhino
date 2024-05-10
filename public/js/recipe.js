@@ -81,20 +81,20 @@ function setUpRatings(rating) {
     $("#recipe_blurb").html(rec.recipe_blurb);
 
     // Row 8 (Ingredients & Nutritional Facts)
-    // Left Column for Ingredients
-    var ingredient_html_list = $("#ingredients_list");
-    let ingredients = rec.ingredients;
+// Left Column for Ingredients
+var ingredient_html_list = $("#ingredients_list");
+let ingredients = rec.ingredients;
 
-    for(var i = 0; i < ingredients.length; i++) {
-        ingredient_html_list.append( 
-            '<li>' +
-                '<label>' +
-                    '<input type="checkbox"/>' +
-                    ingredients[i] + 
-                '</label>' +
-            '</li>' 
-        );
-    };
+for(var i = 0; i < ingredients.length; i++) {
+    ingredient_html_list.append( 
+        '<li>' +
+            '<label>' +
+                '<input type="checkbox" style="cursor: pointer;"/>' +
+                ingredients[i] + 
+            '</label>' +
+        '</li>' 
+    );
+};
 
     // Right Column for Nutritional Facts
     $("#serving_size").html(rec.serving_size);

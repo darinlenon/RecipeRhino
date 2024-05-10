@@ -279,7 +279,8 @@ body, html {
   font-size: 18px;
   color: rgb(0, 0, 0);
   text-align: left;
-  margin: 25px 20px; /* Add margin between each row and from the edges */
+  margin: 25px 0; /* Keep the top and bottom margin */
+  padding-left: 80px; /* Add padding on the left */
   display: flex;
   align-items: center; /* Align items vertically */
 }
