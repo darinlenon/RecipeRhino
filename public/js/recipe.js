@@ -167,14 +167,13 @@ for (var i = 0; i < tips_var.length; i++) {
         tips_var_html_list.append(
             '<li class="tips_flexrow">' +
             '<div class="tips_text"></div>' +
-            '<div class="tips_text extra_spacing">' + // apply extra_spacing class
+            '<div class="tips_text extra_spacing">' + // apply the .extra_spacing class
             '<p>' + tip + '</p>' +
             '</div>' +
             '</li>'
         );
     }
 }
-
 
     // Row 12 (Tags)
     var tags_html_list = $("#tags_list");
