@@ -999,7 +999,7 @@ let recipes = [
         yield_image: '12',
         prep_time_image: '20',
         cook_time_image: '20',
-        temp_image: 'tmh', 
+        temp_image: 'mh', 
         cuisine: 'am',
         course: 'ca',
         skill_level: 'be',
@@ -1101,6 +1101,56 @@ let recipes = [
             'bread sticks',
             'cheese sticks',
             'garlic bread sticks'
+        ],
+    },
+    {
+        id: 23,
+        name: "Grandmas Popcorn Balls",
+        rating: "4.8",
+        recipe_img: "Grandmas_Popcorn_Balls.jpg",
+        time_total_image: '25',
+        yield_image: '12',
+        prep_time_image: '15',
+        cook_time_image: '10',
+        temp_image: 'boil', 
+        cuisine: 'am',
+        course: 'tr',
+        skill_level: 'be',
+        pdf: 'Grandmas_Popcorn_Balls',
+        recipe_blurb: "These are easy, fun and super cute. Great for class parties, team treat bags and Trick or Treators.",
+        ingredients: [
+            '1 pkg. Jello (Color and flavor of your choice. This will be the color and flavor of your popcorn balls)',
+            '1 c. Sugar',
+            '1 c. Karo syrup',
+            '6 quarts of popcorn',
+            'butter (for your hands)'
+        ],
+        serving_size: '1 ball',
+        total_servings: '12',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Combine jello, sugar and Karo syrup in a medium sized sauce pan.',
+            'Mix together well.',
+            'Bring mixture to boil slowly over medium heat.',
+            'Pour over poped corn.',
+            'Butter your hands well, then shape popcorn into baseball sized balls.',
+            'Layout on waxpaper to cool.'
+        ],
+        tips_var: [
+            "^Green jello makes cute Christmas wreaths for Christmas parties",
+            "^Use small candies for eyes and get creative for Halloween.",
+            "^Use silicon molds for some really great shapes."
+        ],
+        tags: [
+            'popcorn',
+            'snack bags',
+            'halloween'
         ],
     },
 ];
