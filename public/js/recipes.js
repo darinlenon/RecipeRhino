@@ -1265,6 +1265,55 @@ let recipes = [
             'bread'
         ],
     },
+    {
+        id: 26,
+        name: "Joy's_Corn_Casserole",
+        rating: "4.9",
+        recipe_img: "Corn_Casserole.WEBP",
+        time_total_image: '1h',
+        yield_image: '12',
+        prep_time_image: '15',
+        cook_time_image: '45',
+        temp_image: '350', 
+        cuisine: 'am',
+        course: 'ma',
+        skill_level: 'be',
+        pdf: 'Corn_Casserole',
+        recipe_blurb: "If you like cornbread this is a nice alternative for a main dish.",
+        ingredients: [
+            '1 stick of butter (melted)',
+            '1 can of whole corn (drained)',
+            '1 can of cream style corn (drained)',
+            '8 oz. sour cream',
+            '2 eggs',
+            '1 Cup chedar cheese',
+            '1 8 oz. box Jiffy Corn Muffin Mix'
+        ],
+        serving_size: '1 piece',
+        total_servings: '12',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Mix all ingredients in a large mixing bowl (save 1/2 of the cheese for topping)',
+            'Spray 13x9 Casserole dish with cooking spray.',
+            'Spread mixture evenly in dish.',
+            'Top with 1/2 cup of cheese.',
+            'Preheat oven to 350.',
+            'Bake for 30-45 minutes.'
+        ],
+        tips_var: [
+            "^This is a nice addition to BBQ or pulled pork.. "
+        ],
+        tags: [
+            'corn',
+            'cornbread'
+        ],
+    },
 ];
 
 let featured = recipes[0];
