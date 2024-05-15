@@ -1267,7 +1267,7 @@ let recipes = [
     },
     {
         id: 26,
-        name: "Joy's_Corn_Casserole",
+        name: "Joy's Corn Casserole",
         rating: "4.9",
         recipe_img: "Corn_Casserole.WEBP",
         time_total_image: '1h',
@@ -1307,11 +1307,116 @@ let recipes = [
             'Bake for 30-45 minutes.'
         ],
         tips_var: [
-            "^This is a nice addition to BBQ or pulled pork.. "
+            "^This is a nice addition to BBQ or pulled pork."
         ],
         tags: [
             'corn',
             'cornbread'
+        ],
+    },
+    {
+        id: 27,
+        name: "Peanut Butter Kiss Cookies",
+        rating: "4.9",
+        recipe_img: "Peanut_Butter_Kiss_Cookies.JPG",
+        time_total_image: '25',
+        yield_image: '48',
+        prep_time_image: '15',
+        cook_time_image: '10',
+        temp_image: '375', 
+        cuisine: 'am',
+        course: 'de',
+        skill_level: 'be',
+        pdf: 'Peanut_Butter_Kiss_Cookies',
+        recipe_blurb: "Fun, delicious and well worth the time. These will surley be a hit.",
+        ingredients: [
+            '48 Hershey Kisses',
+            '1/2 cup shortening',
+            '3/4 cup peanut butter',
+            '1/3 cup granulated sugar',
+            '1/3 cup packed light brown sugar',
+            '1 egg',
+            '2 tablespoons milk',
+            '1 teaspoon vanilla extract',
+            '1 1/2 cups all-purpose flour',
+            '1 teaspoon baking soda',
+            '1/2 teaspoon salt',
+            '~ 1/2 Cup Granulated sugar'
+        ],
+        serving_size: '1 Cookie',
+        total_servings: '48',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Pre heat oven to 375F.',
+            'Remove wrappers from chocolates and set aside.',
+            'Beat shortening and peanut butter in large bowl until well blended.',
+            'Add 1/3 cup granulated sugar and brown sugar; beat until fluffy.',
+            'Add egg, milk and vanilla; beat well.',
+            'Stir together flour, baking soda and salt; gradually beat into peanut butter mixture.',
+            'Shape dough into 1-inch balls.',
+            'Roll in granulated sugar; place on ungreased cookie sheet.',
+            'Bake 8 to 10 minutes or until lightly browned.',
+            'Immediately press a chocolate piece into center of each cookie; cookie will crack around edges.',
+            'Remove from cookie sheet to wire rack. Cool completely.'
+        ],
+        tips_var: [
+            "^If you are not a fan of choclate. Press each ball on cookie sheet with a fork before cooking and skip the kisses."
+        ],
+        tags: [
+            'peanut butter',
+            'Hershey Kisses'
+        ],
+    },
+    {
+        id: 28,
+        name: "Pistachio Salad",
+        rating: "4.8",
+        recipe_img: "Pistachio_Salad.jpg",
+        time_total_image: '20',
+        yield_image: '12',
+        prep_time_image: '20',
+        cook_time_image: '0',
+        temp_image: 'cold', 
+        cuisine: 'am',
+        course: 'sa',
+        skill_level: 'be',
+        pdf: 'Pistachio_Salad',
+        recipe_blurb: "A surprisingly delicious salad. Sweet withe a light fruity flavor.",
+        ingredients: [
+            '1 large soz cool whip',
+            '1 20 oz. can of crushed pineapple',
+            '2 Cups of small marshmallows',
+            '1 small box instant pistachio pudding',
+            '½ - 1 cup Chopped pecans (personal prefrence)'
+        ],
+        serving_size: '3/4 cup',
+        total_servings: '12',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Mix dry pudding with pineapple',
+            'Then add coolwhip; marshmallows,',
+            'Then mix in pecans.',
+            'Place in fridge to chill.'
+        ],
+        tips_var: [
+            "^If you love coconut add 1/4 - 1/2 for a nicce tropical treat."
+        ],
+        tags: [
+            'pineapple',
+            'marshmellows',
+            'coconut'
         ],
     },
 ];
