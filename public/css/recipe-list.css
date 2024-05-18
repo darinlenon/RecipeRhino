@@ -17,7 +17,8 @@
 }
 
 .recipe-tile-img {
-    max-width: 20em;
+    width: 21em;
+    height: 14em;
     margin: 0 0 1em 0;
     border-radius: 1em;
 }
