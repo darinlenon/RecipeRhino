@@ -581,7 +581,7 @@ let recipes = [
     },
     {
         id: 12,
-        name: "Stephs Caramel Brownies",
+        name: "Steph's Caramel Brownies",
         rating: "4.7",
         recipe_img: "Stephs_Caramel_Brownies.jpg",
         time_total_image: '35',
@@ -846,7 +846,7 @@ let recipes = [
     },
     {
         id: 18,
-        name: "Peaunt Butter Blueberry Dog Treats",
+        name: "Peaunt Butter & Blueberry Dog Treats",
         rating: "10",
         recipe_img: "Peaunt_Blueberry_Dog_Treats.jpg",
         time_total_image: '30',
@@ -895,7 +895,7 @@ let recipes = [
     },
     {
         id: 19,
-        name: "My Favorite Pizza Sauce",
+        name: "Darin's Favorite Pizza Sauce",
         rating: "4.9",
         recipe_img: "My_Favorite_Pizza_Sauce.jpg",
         time_total_image: '20',
@@ -946,7 +946,7 @@ let recipes = [
     },
     {
         id: 20,
-        name: "Fresh and Light Pizza Sauce",
+        name: "Steph's Favorite Fresh and Light Pizza Sauce",
         rating: "4.8",
         recipe_img: "Fresh_and_Light_Pizza_Sauce.jpg",
         time_total_image: '10',
@@ -1105,7 +1105,7 @@ let recipes = [
     },
     {
         id: 23,
-        name: "Grandmas Popcorn Balls",
+        name: "Grandma's Popcorn Balls",
         rating: "4.8",
         recipe_img: "Grandmas_Popcorn_Balls.jpg",
         time_total_image: '25',
@@ -1155,7 +1155,7 @@ let recipes = [
     },
     {
         id: 24,
-        name: "Lynettes Oatmeal Bars",
+        name: "Lynette's Oatmeal Bars",
         rating: "4.8",
         recipe_img: "Lynettes_Oatmeal_Bars.jpg",
         time_total_image: '25',
@@ -1213,7 +1213,7 @@ let recipes = [
     },
     {
         id: 25,
-        name: "Georgia Peach Bread",
+        name: "Joy's Georgia Peach Bread",
         rating: "4.9",
         recipe_img: "Georgia_Peach_Bread.jpg",
         time_total_image: '75',
