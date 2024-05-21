@@ -1406,7 +1406,7 @@ let recipes = [
         fiber: '111',
         instructions: [
             'Mix dry pudding with pineapple',
-            'Then add coolwhip; marshmallows,',
+            'Then add coolwhip; marshmallows',
             'Then mix in pecans.',
             'Place in fridge to chill.'
         ],
@@ -1417,6 +1417,62 @@ let recipes = [
             'pineapple',
             'marshmellows',
             'coconut'
+        ],
+    },
+    {
+        id: 29,
+        name: "Darin's Smoked Pulled Pork",
+        rating: "4.9",
+        recipe_img: "Darin's_Smoked_Pulled_Pork.jpeg",
+        time_total_image: '18',
+        yield_image: '12',
+        prep_time_image: '1h',
+        cook_time_image: '17h',
+        temp_image: '225', 
+        cuisine: 'am',
+        course: 'ma',
+        skill_level: 'be',
+        pdf: 'Darins_Smoked_Pulled_Pork',
+        recipe_blurb: "Smoke it low, smoke it slow. This pulled pork is worth the wait, and this versatile smoked pulled pork can be served any way you like.",
+        ingredients: [
+            '1 (6-10 lb) bone-in pork shoulder (Boston butt)',
+            '1/4 Cup mustard',
+            '1/4 Cup of "Killens S+P Blend"',
+            '1 1/2 Cups of your favorite rub',
+            '2 Cups apple cider',
+            'Bag of apple flavored pellets'
+        ],
+        serving_size: '12 ounces',
+        total_servings: '12',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Preheat smoker to 225˚ (set to "super smoke" if you have thhat setting)',
+            'Trim any sloppy fat, viens, glans or silver skin you find (leave the fat cap on!)',
+            'Coat the entire butt with mustard (it will not flavor you pork but it is an excelent binder for your seasonings)',
+            'Next season with the "Killens". (make sure you have good coverage but not very heavy)',
+            'Next use your rub and cover the entire butt and let sit for 20 minutes.(dont be afraid to go very heavy)',
+            'Place the pork butt fat side up directly on the grill grate and cook until the internal temperature reaches 160˚, about 5 to 10 hours depending on the size of the pork butt.',
+            'Remove the pork butt from the grill.',
+            'On a large baking sheet, stack 4 large pieces of aluminum foil on top of each other, ensuring they are wide enough to wrap the pork butt entirely on all sides. If not, overlap the foil pieces to create a wider base. Place the pork butt in the center on the foil, then bring up the sides of the foil a little bit before pouring the apple cider on top of the pork butt. Wrap the foil tightly around the pork, ensuring the cider does not escape for delicious pulled pork.',
+            'Place the foil-wrapped pork butt back on the grill fat side up and cook at 250˚ until the internal temperature reaches 204℉, in the thickest part of the meat, about 3 to 5 hours longer depending on the size of the pork butt.',
+            'Pull it out of your gril leave it in the foil packet and wrap it in a towell. Place it in a cooler and cover with another towell and allow it to rest for atleast 1 hour.',
+            'Place the pork in a large dish and shred the meat, removing and discarding the bone and any excess fat. Add liquid back into pork and season to taste with additional Rub. Optionally, add your favorite BBQ sauce to taste.',
+            'Serve alone, in your favorite recipes, or on sandwiches. Refrigerate leftover pork in a covered container for up to 4 days. Enjoy!'
+        ],
+        tips_var: [
+            "^My general rule of thumb is 90 minutes of total cook time per pound of pork cooked at 225˚-250˚.",
+            "This is an awesome dish to try out my Jalapeño Barbecue Sauce Recipe",
+            "If your in the south dont forget the cold slaw."
+        ],
+        tags: [
+            'pork',
+            'BBQ'
         ],
     },
 ];
