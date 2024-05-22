@@ -461,7 +461,8 @@ let recipes = [
             'Brown ground beef, peppers and onion in heavy skillet over medium-heat. Drain fat from pan, reduce heat.',
             'Add the undiluted tomato soup, corn and the cream cheese. Stir until well combined and no chunks of cream cheese are visible. Stir in taco seasoning and 1 cup of the shredded cheese. Turn mixture into lightly greased or sprayed 2 or 2 1/2 quart casserole dish, spreading mixture evenly across the bottom.',
             'In a separate bowl, combine the defrosted hash browns, the salt, pepper and 3/4 cup shredded cheese.',
-            'Top ground beef with potato mixture, pressing it down slightly. sprinkle remaining 1/4 cup of shredded cheese on the top. 5. Bake at 350 degrees for 30-35 minutes or until topping is browned and crispy on top.'
+            'Top ground beef with potato mixture, pressing it down slightly. sprinkle remaining 1/4 cup of shredded cheese on the top.',
+            'Bake at 350 degrees for 30-35 minutes or until topping is browned and crispy on top.'
         ],
         tips_var: [
             "^For longer storage, taco hashbrown casserole can also be frozen for up to 6 months. Wrap the cooked casserole in a double layer of plastic wrap or aluminum foil. Label the package with the date and contents, then store it in the freezer. When you’re ready to enjoy, thaw Taco Hashbrown Casserole overnight in the refrigerator before reheating as directed above. With proper storage, this casserole will remain delicious and flavorful for months!",
