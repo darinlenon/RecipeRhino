@@ -1424,7 +1424,7 @@ let recipes = [
         name: "Darin's Smoked Pulled Pork",
         rating: "4.9",
         recipe_img: "Darin's_Smoked_Pulled_Pork.jpeg",
-        time_total_image: '18',
+        time_total_image: '18h',
         yield_image: '12',
         prep_time_image: '1h',
         cook_time_image: '17h',
@@ -1467,12 +1467,66 @@ let recipes = [
         ],
         tips_var: [
             "^My general rule of thumb is 90 minutes of total cook time per pound of pork cooked at 225˚-250˚.",
-            "This is an awesome dish to try out my Jalapeño Barbecue Sauce Recipe",
-            "If your in the south dont forget the cold slaw."
+            "^This is an awesome dish to try out my Jalapeño Barbecue Sauce Recipe",
+            "^If your in the south dont forget the cold slaw."
         ],
         tags: [
             'pork',
             'BBQ'
+        ],
+    },
+    {
+        id: 30,
+        name: "Jolly Rancher Grapes",
+        rating: "4.9",
+        recipe_img: "Jolly_Rancher_Grapes.JPG",
+        time_total_image: '45',
+        yield_image: '24',
+        prep_time_image: '5',
+        cook_time_image: '0',
+        temp_image: 'high', 
+        cuisine: 'am',
+        course: 'tr',
+        skill_level: 'be',
+        pdf: 'Jolly_Rancher_Grapes',
+        recipe_blurb: "With over 30 million views on TikTok it had to be good.",
+        ingredients: [
+            '1 bag of Jolly Rancher hard candies, unwrapped and sorted by color',
+            'Grapes or strawberries, washed and dried well',
+            'Nerds candy (if you desire)',
+            '5 Silicone baking cups',
+            '48 Wooden toothpicks or skewers',
+            'Silicone mat (for drying coated fruit)'
+        ],
+        serving_size: '2 grapes',
+        total_servings: '24',
+        calories: '111',
+        carbohydrates: '111',
+        total_fat: '111',
+        sodium: '111',
+        protein: '111',
+        sugar: '111',
+        fiber: '111',
+        instructions: [
+            'Place 5-7 unwrapped Jolly Ranchers of the same color into a silicone baking cup.',
+            'Using a wooden toothpick or skewer, spear each piece of fruit',
+            'Microwave for approximately 30 seconds pull out and stir.',
+            'return to microwave for about 10 more seconds until bubbly and fully melted, but not burned.',
+            'Then dip each piece of skerered fruit into the melted sugar mixture, being careful not to drip hot sugar onto skin. Coat fruit lightly with candy mixture. Make sure to work fast, if the candy gets too hard just return to the microwave for 10 seconds till loose again.',
+            'If desired, dip freshly-coated fruit into Nerds candy.',
+            'Let coated fruit dry for 30 minutes on a silicone mat for the perfect crunch.',
+            'Repeat with other flavors of Jolly Ranchers.'
+        ],
+        tips_var: [
+            "^Cleaning tip: To clean bowls run under hot water until clear.",
+            "^It's important that the candy doesn't burn — the color will change to a very dark color if it does.",
+            "^Nerds aren't the only dipping option. Try Pop Rocks, Dip Stick powder or Crushed Red Hots. The sky is the limit."
+        ],
+        tags: [
+            'grapes',
+            'Candy',
+            'craft ideas',
+            'fun'
         ],
     },
 ];
