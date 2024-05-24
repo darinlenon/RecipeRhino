@@ -53,7 +53,7 @@ let recipes = [
     },
     {
         id: 2,
-        name: "Uncle Darin's Pico De Gallo",
+        name: "Darin's Pico De Gallo",
         rating: "4.75",
         recipe_img: "pico_image.jpg",
         time_total_image: '15',

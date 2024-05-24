@@ -87,11 +87,9 @@ let ingredients = rec.ingredients;
 
 for(var i = 0; i < ingredients.length; i++) {
     ingredient_html_list.append( 
-        '<li>' +
-            '<label>' +
-                '<input type="checkbox" style="cursor: pointer;"/>' +
-                ingredients[i] + 
-            '</label>' +
+        '<li class="ingredient_listitem">' +
+            '<input type="checkbox" style="cursor: pointer;"/>' +
+            '<span>' + ingredients[i] + '</span>' + 
         '</li>' 
     );
 };

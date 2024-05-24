@@ -284,6 +284,11 @@ body, html {
   align-items: center; /* Align items vertically */
 }
 
+.ingredient_listitem {
+  display: flex;
+  flex-direction: row;
+}
+
 .Ingredients input[type="checkbox"] {
   margin-right: 20px; /* Add spacing between checkbox and text */
   margin-top: -5px;
