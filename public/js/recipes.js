@@ -228,6 +228,9 @@ let recipes = [
         ingredients: [
             '2 cups flour',
             '2 cups sugar',
+            '1 cup shortening',
+            '1/4 cup cocoa',
+            '1 cup water',
             '1 t. baking soda',
             '2 eggs',
             '1 t. Vanilla',
