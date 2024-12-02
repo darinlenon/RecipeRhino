@@ -390,15 +390,17 @@ let recipes = [
         ingredients: [
             '4 cups COLD cooked white (jasmine) rice',
             '2 tbs. bacon grease or the oil of your choice',
-            '3 eggs beaten -1/4 cup low-sodium soy sauce',
-            'optional: 10 small button mushrooms halved and sliced thin, about 1 cup',
+            '3 eggs beaten',
             '-1/4 cup low-sodium soy sauce',
             '1 tbs. sesame oil',
             '2 cups diced cooked ham (1/4-1/2 inch pieces)',
-            '1 cup frozen corn -1/2 cup frozen peas',
+            '1 cup frozen corn',
+            '-1/2 cup frozen peas',
             '3 green onions (sliced thin)',
             '1/4-1/2 tsp. freshly ground black pepper',
-            '1 tbs. butter -optional: kosher salt (only as needed)'
+            '1 tbs. butter',
+            '-optional: kosher salt (only as needed)',
+            'optional: 10 small button mushrooms halved and sliced thin, about 1 cup'
         ],
         serving_size: '1 1/2 Cups',
         total_servings: '6',
