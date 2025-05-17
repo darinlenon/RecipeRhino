@@ -6836,3 +6836,39 @@ div.widget-measurements .default-btn {
   display: flex;
   flex-direction: row;
 }
+
+/* ===== Final Responsive Fixes for Recipe Page ===== */
+
+@media (max-width: 768px) {
+    /* Stack image and recipe info icons vertically */
+    .recipe-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .recipe-header img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .recipe-info-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .recipe-info-icons div {
+        margin: 5px 0;
+    }
+
+    /* Stack ingredients and nutrition facts vertically */
+    .ingredients-nutrition {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ingredients-section, .nutrition-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

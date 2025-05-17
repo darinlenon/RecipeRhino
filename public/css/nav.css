@@ -118,3 +118,84 @@ body {
         background-size: 100px 100px;
     }
 }
+
+
+/* ===== Responsive Design Adjustments ===== */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .container, .wrapper {
+        width: 90%;
+        padding: 0 5%;
+    }
+    header nav ul {
+        display: none; /* Hide desktop nav */
+    }
+    header .mobile-menu {
+        display: block; /* Show mobile menu if implemented */
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile Phones (480px and below) */
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 90%;
+    }
+    .hero-section, .banner, .featured-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .grid-layout, .column-layout {
+        display: block;
+        width: 100%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+}
+
+
+/* ===== Responsive Adjustments for Recipe Page ===== */
+
+/* Mobile Phones (480px and below) */
+@media (max-width: 480px) {
+    /* Ingredients and Nutritional Facts: stack vertically */
+    .ingredients-nutrition-container {
+        display: block;
+        width: 100%;
+    }
+    .ingredients-section, .nutrition-facts-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Recipe Header: Move image to top, icons below */
+    .recipe-header-container {
+        display: block;
+        text-align: center;
+    }
+    .recipe-header-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .recipe-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .recipe-icons div {
+        margin: 5px 0;
+    }
+}

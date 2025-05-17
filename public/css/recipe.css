@@ -572,3 +572,48 @@ body, html {
   font-weight: 400;
   margin-bottom: 0; 
 }
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ingredients, .nutrition-facts {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header_container {
+        flex-direction: column;
+        padding: 20px 5%;
+    }
+
+    .left-nav, .center-nav, .right-nav {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .nav-text {
+        font-size: 24px;
+    }
+}
+
+
+/* Force Ingredients and Nutritional Facts to Stack on Mobile */
+@media (max-width: 600px) {
+    .ingredients-checkbox, .nutritional {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .nutrition-detail, .left-box, .right-box {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
